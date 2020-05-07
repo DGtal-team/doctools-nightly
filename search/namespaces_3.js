@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fonts',['Fonts',['http://dgtal.org/doc/nightly/namespaceLibBoard_1_1Fonts.html',1,'LibBoard']]],
-  ['libboard',['LibBoard',['http://dgtal.org/doc/nightly/namespaceLibBoard.html',1,'']]]
+  ['fonts',['Fonts',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html',1,'LibBoard']]],
+  ['libboard',['LibBoard',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard.html',1,'']]]
 ];
