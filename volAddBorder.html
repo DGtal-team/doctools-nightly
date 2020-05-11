@@ -75,7 +75,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Adds a border of one voxel with value 0 around a vol file.</p>
 <p><b>Usage:</b> volAddBorder &ndash;input &lt;volFileName&gt; &ndash;o &lt;volOutputFileName&gt;</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]         display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg    Input vol file.</div><div class="line">-o [ --output ] arg   Output filename.</div></div><!-- fragment --><p><b>Example:</b> </p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]         display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg    Input vol file.</div><div class="line">-inside               Sets zero value to domain boundary voxels without changing the domain extent.</div><div class="line">-o [ --output ] arg   Output filename.</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">$  volAddBorder -i $DGtal/examples/samples/Al.100.vol -o Al.100border.vol</div></div><!-- fragment --><p>You should obtain an resulting image with domain: -1, -1, -1 x 100, 100, 100 instead 0, 0, 0 x 99, 99, 99</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="volAddBorder_8cpp_source.html">volAddBorder.cpp</a> </dd></dl>
 </div></div><!-- contents -->
@@ -83,7 +83,7 @@ $(function() {
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Sun May 10 2020 20:37:29 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon May 11 2020 10:27:15 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
