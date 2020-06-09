@@ -1,7 +1,7 @@
 var searchData=
 [
   ['v',['v',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CPowerSeparableMetric.html#af963d948bbfbdf6f4216bcb2afcc1893',1,'DGtal::concepts::CPowerSeparableMetric::v()'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CSeparableMetric.html#ac96519d9d91cd7cf5398a5b6bed878ad',1,'DGtal::concepts::CSeparableMetric::v()']]],
-  ['v0',['v0',['../structDGtal_1_1ATu2v0.html#a68d407846a63505ec50926d360885996',1,'DGtal::ATu2v0']]],
+  ['v0',['v0',['../structDGtal_1_1ATu2v0.html#a68d407846a63505ec50926d360885996',1,'DGtal::ATu2v0::v0()'],['../structDGtal_1_1ATVu2v0.html#a1d8cdfa95f5fb68d1442d4da582e94be',1,'DGtal::ATVu2v0::v0()']]],
   ['v1',['v1',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CLMSTTangentFromDSS.html#a83a0cf3ab5b3d2cc6f899902750d73ab',1,'DGtal::concepts::CLMSTTangentFromDSS::v1()'],['../structDGtal_1_1ATu0v1.html#ab893eeeda6dab64c8e0e9417ace7374e',1,'DGtal::ATu0v1::v1()']]],
   ['v2',['v2',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CLMSTTangentFromDSS.html#acc3813bb57f9eb3bdaf79a61f1747f20',1,'DGtal::concepts::CLMSTTangentFromDSS']]],
   ['v_5fshapes',['v_shapes',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1DigitalShapesCSG.html#a1379f6bd41ffff3ad847be862c5444e5',1,'DGtal::DigitalShapesCSG::v_shapes()'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1EuclideanShapesCSG.html#a00615efd4a107f5eeeba4dcf876c9618',1,'DGtal::EuclideanShapesCSG::v_shapes()']]],

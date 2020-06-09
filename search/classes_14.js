@@ -1,7 +1,7 @@
 var searchData=
 [
   ['umbrellacomputer',['UmbrellaComputer',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1UmbrellaComputer.html',1,'DGtal']]],
-  ['umbrellacomputer_3c_20digitalsurfacetracker_20_3e',['UmbrellaComputer&lt; DigitalSurfaceTracker &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1UmbrellaComputer.html',1,'DGtal::UmbrellaComputer&lt; DigitalSurfaceTracker &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1UmbrellaComputer.html',1,'UmbrellaComputer&lt; DigitalSurfaceTracker &gt;']]],
+  ['umbrellacomputer_3c_20digitalsurfacetracker_20_3e',['UmbrellaComputer&lt; DigitalSurfaceTracker &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1UmbrellaComputer.html',1,'UmbrellaComputer&lt; DigitalSurfaceTracker &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1UmbrellaComputer.html',1,'DGtal::UmbrellaComputer&lt; DigitalSurfaceTracker &gt;']]],
   ['unaryfunction',['UnaryFunction',['https://dgtal-team.github.io/doc-nightly/structboost_1_1UnaryFunction.html',1,'boost']]],
   ['unaryminus',['UnaryMinus',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1functors_1_1UnaryMinus.html',1,'DGtal::functors']]],
   ['unarypredicate',['UnaryPredicate',['https://dgtal-team.github.io/doc-nightly/structboost_1_1UnaryPredicate.html',1,'boost']]],

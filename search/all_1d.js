@@ -14,6 +14,7 @@ var searchData=
   ['_7earrayimageiterator',['~ArrayImageIterator',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1ArrayImageIterator.html#a6fcd40729d8f979dd091aa142edeaaca',1,'DGtal::ArrayImageIterator']]],
   ['_7eatu0v1',['~ATu0v1',['../structDGtal_1_1ATu0v1.html#a947e7ef037be77c9ba5e1146013fd3ca',1,'DGtal::ATu0v1']]],
   ['_7eatu2v0',['~ATu2v0',['../structDGtal_1_1ATu2v0.html#a618b247662ece483cbc83609bd9fc04b',1,'DGtal::ATu2v0']]],
+  ['_7eatvu2v0',['~ATVu2v0',['../structDGtal_1_1ATVu2v0.html#a1c380371aaf58a02f1a6dd143d37a9b5',1,'DGtal::ATVu2v0']]],
   ['_7ebackpath',['~Backpath',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1FrechetShortcut_1_1Backpath.html#aba3358f91b99bf119f6079dc2f9701d1',1,'DGtal::FrechetShortcut::Backpath']]],
   ['_7eball2d',['~Ball2D',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Ball2D.html#a6d27eb87c4625289db2ea5624074df8b',1,'DGtal::Ball2D']]],
   ['_7eball3d',['~Ball3D',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Ball3D.html#a4e5b0253bf46865b43f8a01b1be86739',1,'DGtal::Ball3D']]],

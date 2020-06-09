@@ -22,7 +22,7 @@ var searchData=
   ['hueshadecolormap',['HueShadeColorMap',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HueShadeColorMap.html',1,'DGtal']]],
   ['hueshadecolormap_3c_20unsigned_20char_20_3e',['HueShadeColorMap&lt; unsigned char &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HueShadeColorMap.html',1,'HueShadeColorMap&lt; unsigned char &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HueShadeColorMap.html',1,'DGtal::HueShadeColorMap&lt; unsigned char &gt;']]],
   ['hyperrectdomain',['HyperRectDomain',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain.html',1,'DGtal']]],
-  ['hyperrectdomain_3c_20space_20_3e',['HyperRectDomain&lt; Space &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain.html',1,'HyperRectDomain&lt; Space &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain.html',1,'DGtal::HyperRectDomain&lt; Space &gt;']]],
+  ['hyperrectdomain_3c_20space_20_3e',['HyperRectDomain&lt; Space &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain.html',1,'DGtal::HyperRectDomain&lt; Space &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain.html',1,'HyperRectDomain&lt; Space &gt;']]],
   ['hyperrectdomain_5fiterator',['HyperRectDomain_Iterator',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain__Iterator.html',1,'DGtal']]],
   ['hyperrectdomain_5fsubiterator',['HyperRectDomain_subIterator',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1HyperRectDomain__subIterator.html',1,'DGtal']]]
 ];

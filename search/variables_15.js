@@ -2,7 +2,7 @@ var searchData=
 [
   ['u',['u',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CPowerSeparableMetric.html#acf9ed664d8ffdf651446ded99aefe58b',1,'DGtal::concepts::CPowerSeparableMetric::u()'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1concepts_1_1CSeparableMetric.html#a803e98390aefe9af18cbd2a76e3df01f',1,'DGtal::concepts::CSeparableMetric::u()'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1LighterSternBrocot_1_1Node.html#ab9c3b4181c0d533a4989de812a298aaf',1,'DGtal::LighterSternBrocot::Node::u()'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1SternBrocot_1_1Node.html#a82af845295a659ffd16ec9f675816fdc',1,'DGtal::SternBrocot::Node::u()'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1LightSternBrocot_1_1Node.html#ab14f228492691e705f782fcd13df8fb4',1,'DGtal::LightSternBrocot::Node::u()']]],
   ['u0',['u0',['../structDGtal_1_1ATu0v1.html#a6bac30de81227f5a72ae2e6c2a2db971',1,'DGtal::ATu0v1']]],
-  ['u2',['u2',['../structDGtal_1_1ATu2v0.html#a6367fdaee070f636c9e51c658a9f13f6',1,'DGtal::ATu2v0']]],
+  ['u2',['u2',['../structDGtal_1_1ATu2v0.html#a6367fdaee070f636c9e51c658a9f13f6',1,'DGtal::ATu2v0::u2()'],['../structDGtal_1_1ATVu2v0.html#a9968a1c415717bbba3f90734adf74c39',1,'DGtal::ATVu2v0::u2()']]],
   ['ucentimeter',['UCentimeter',['https://dgtal-team.github.io/doc-nightly/classLibBoard_1_1Board.html#a3f79f876d837d6d427deb9e15e5589e5a584cabe1c19d9b128244ef55e712273e',1,'LibBoard::Board']]],
   ['ui',['ui',['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow']]],
   ['uinche',['UInche',['https://dgtal-team.github.io/doc-nightly/classLibBoard_1_1Board.html#a3f79f876d837d6d427deb9e15e5589e5a6c46540288fb3c55ab8373edc8d92fda',1,'LibBoard::Board']]],

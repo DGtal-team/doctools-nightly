@@ -88,14 +88,15 @@ $(function() {
 </ul>
 </li>
 <li class="level1"><a href="#AT4">Use of AT models for inpainting</a></li>
-<li class="level1"><a href="#References">References</a></li>
+<li class="level1"><a href="#AT5">A variant for AT model</a></li>
+<li class="level1"><a href="#ATref">References</a></li>
 </ul>
 </div>
 <div class="textblock"><dl class="section user"><dt>Author(s) of this documentation: Marion Foare and Jacques-Olivier Lachaud</dt><dd></dd></dl>
 <p>Part of tool <a class="el" href="imageProcessing.html">Image processing</a>.</p>
 <ul>
-<li>related tools: <a class="el" href="DocATu2v0.html">imageProcessing/at-u2-v0</a>, <a class="el" href="DocATu0v1.html">imageProcessing/at-u0-v1</a></li>
-<li>related classes: <a class="el" href="structDGtal_1_1ATu0v1.html">DGtal::ATu0v1</a>, <a class="el" href="structDGtal_1_1ATu2v0.html">DGtal::ATu2v0</a>, <a class="el" href="structDGtal_1_1DECImage2D.html">DGtal::DECImage2D</a></li>
+<li>related tools: <a class="el" href="DocATu2v0.html">imageProcessing/at-u2-v0</a>, <a class="el" href="DocATVu2v0.html">imageProcessing/atv-u2-v0</a>, <a class="el" href="DocATu0v1.html">imageProcessing/at-u0-v1</a></li>
+<li>related classes: <a class="el" href="structDGtal_1_1ATu0v1.html">DGtal::ATu0v1</a>, <a class="el" href="structDGtal_1_1ATu2v0.html">DGtal::ATu2v0</a>, <a class="el" href="structDGtal_1_1ATVu2v0.html">DGtal::ATVu2v0</a>, <a class="el" href="structDGtal_1_1DECImage2D.html">DGtal::DECImage2D</a></li>
 <li>related namespace: <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html">DGtal::functions::dec</a></li>
 <li>related functions: <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#ad9fb26d47ad401b3c03352935a26d653">DGtal::functions::dec::diagonal</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#af357eec2548f18bfb57f22a401d939a3">DGtal::functions::dec::squares</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a7baa4898c67d1b806bf9fbe184633f68">DGtal::functions::dec::squaredDiagonal</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#aaa4c8cd28542bfcc448411aa12b2ac0f">DGtal::functions::dec::writePixel</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a2ad6648879b4fe80dd4bf478093afc58">DGtal::functions::dec::writePrimalLinel</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#abd45f566de4244177a273ab58211fe27">DGtal::functions::dec::writeDualLinel</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a0e6468a2500539a58154ad4306ee5905">DGtal::functions::dec::form2ToImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a3cc22a515214f5d66476709f7e79c5eb">DGtal::functions::dec::form1ToImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a7fd12bedfdc0cb9d387cac611954ca9e">DGtal::functions::dec::dualForm1ToImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a1aac0287d103cd7d32bdd2d5d1f59733">DGtal::functions::dec::primalForm1ToImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#af0f1984b7bce933f879ba34366feceb8">DGtal::functions::dec::threeForms2ToImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a4b9ac337cafc1eca676005ee618347da">DGtal::functions::dec::form2ToGreyLevelImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a00c503c31f47b9d6a50230a6ba6f3acf">DGtal::functions::dec::primalForm1ToGreyLevelImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a1ae55a77c01a4a05f11c753f048cd77a">DGtal::functions::dec::dualForm1ToGreyLevelImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#aced45cf3f95402bcd4f13f853e2beee5">DGtal::functions::dec::primalForm1ToRGBColorImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#a69a0b5992fc0b6286c67e29e5fa93c32">DGtal::functions::dec::dualForm1ToRGBColorImage</a>, <a class="el" href="namespaceDGtal_1_1functions_1_1dec.html#abbd5561c8b9fc45a241040c5e9140487">DGtal::functions::dec::threeForms2ToRGBColorImage</a>.</li>
 </ul>
@@ -318,10 +319,47 @@ Use of AT models for inpainting</h1>
 <tr>
 <td>Command lines are: </td><td align="center" colspan="2"><div class="fragment"><div class="line">./imageProcessing/at-u0-v1 -i ../imageProcessing/Images/quadruple-color.ppm -o q -m ../imageProcessing/Images/mask-big-disc.pgm -a 1.0 --lambda 0.01 --epsilon-1 4.0 --epsilon-2 0.25</div></div><!-- fragment --> <div class="fragment"><div class="line">./imageProcessing/at-u0-v1 -i ../imageProcessing/Images/quadruple-45-color.ppm -o q -m ../imageProcessing/Images/mask-disc.pgm -a 1.0 --lambda 0.025 --epsilon-1 4.0 --epsilon-2 0.25</div></div><!-- fragment --><div class="fragment"><div class="line">./imageProcessing/at-u2-v0 -i ../imageProcessing/Images/quadruple-color.ppm -o q -m ../imageProcessing/Images/mask-big-disc.pgm -a 1.0 --lambda 0.01 --epsilon-1 4.0 --epsilon-2 0.25</div></div><!-- fragment --> <div class="fragment"><div class="line">./imageProcessing/at-u2-v0 -i ../imageProcessing/Images/quadruple-45-color.ppm -o q -m ../imageProcessing/Images/mask-disc.pgm -a 1.0 --lambda 0.025 --epsilon-1 4.0 --epsilon-2 0.25</div></div><!-- fragment -->   </td></tr>
 </table>
-</center><h1><a class="anchor" id="References"></a>
+</center><h1><a class="anchor" id="AT5"></a>
+A variant for AT model</h1>
+<p>Following ideas from Elie Bretin and Simon Masnou (Institut Camille Jordan), it is possible to approximate the Hausdorff 1-measure of singularities using the Laplacian of v instead of its gradient. The functional becomes:</p>
+<p class="formulaDsp">
+\[ \displaystyle AT_{\varepsilon}(u,v) = \int_\Omega \alpha |u-g|^2 + v^2 |\nabla u|^2 + c \lambda \varepsilon |\Delta v|^2 + c \frac{\lambda}{\varepsilon} |1-v|^2 dx, \]
+</p>
+<p>It \( \Gamma \)-converges to a length estimation multiplied by \(2 \sqrt{2}\), while having a smoother profile than the standard AT. The constant c is set to \(1/(2 \sqrt{2})\) to correct this estimation and to keep the same parameterization as AT.</p>
+<p>In ATV functional, function \( v \) is a smooth approximation of the set of discontinuities, and takes value close to 0 in this set, while being close to 1 outside discontinuities. A remarkable property of this functional is that it \( \Gamma \)-converges to (a relaxation of) MS functional as \( \varepsilon \) tends to 0 (see [1]). The intuition is that a large \( \varepsilon \) induces a solution with a fuzzy set of discontinuities, which is then progressively narrowed to the crisp 1-dimensional set of discontinuites as \( \varepsilon \) goes to 0.</p>
+<p>We discretize ATV with discrete calculus and we set \( u \) and \( g \) to live on the faces and \( v \) to live on the vertices and edges. Pixels are faces, so functions \( u \) and \( g \) are 2-forms since they represent the gray levels of each pixel. On the contrary, we set \( v \) in-between cells of non null measure, so in this case on vertices as a 0-form, and on edges by averaging with \( \mathbf{M} \). We call this formulation ATV20. The DEC reformulation is straightforward, except for the second term, where we use matrix \( \mathbf{M} \) to transport the 0-form \( v \) onto edges :</p>
+<p class="formulaDsp">
+\[ \displaystyle ATV20(u,v) = \Sigma_{i=1}^n \alpha \langle u_i - g_i , u_i - g_i \rangle_2 + \langle \mathbf{M} v , \bar{\mathbf{\star}} \bar{\mathbf{d_0}} \mathbf{\star} u_i \rangle_1 ^2 \\ + c \lambda \varepsilon \langle \mathbf{L_0} v , \mathbf{L_0} v \rangle_1 + c \frac{\lambda}{4\varepsilon} \langle 1 - v , 1 - v \rangle_0. \]
+</p>
+<p>Here is an example.</p>
+<div class="fragment"><div class="line">./imageProcessing/atv-u2-v0 -i ../imageProcessing/Images/degrade-b04.pgm --image-snr ../imageProcessing/Images/degrade.pgm -a 0.05 --epsilon-1 4 --epsilon-2 0.25 -l 0.0075 -p 2 -c 0xff0000 -o degrade</div></div><!-- fragment --><center> <table class="doxtable">
+<tr>
+<td>Input image <em>g</em>  </td><td>Reconstructed image ATV <em>u</em>  </td><td>Reconstructed image TV <em>u</em> (for comparison)  </td><td>Perfect image   </td></tr>
+<tr>
+<td><div class="image">
+<img src="degrade-b04.png" alt="degrade-b04.png"/>
+<div class="caption">
+Input image (noise = 0.4)</div></div>
+ </td><td><div class="image">
+<img src="degrade-atv-a0.05000-l0.0075000-u.png" alt="degrade-atv-a0.05000-l0.0075000-u.png"/>
+<div class="caption">
+ATV20 alpha=0.05 lambda=0.0075 </div></div>
+ </td><td><div class="image">
+<img src="degrade-a0.05000-l0.0075000-u2.png" alt="degrade-a0.05000-l0.0075000-u2.png"/>
+<div class="caption">
+AT20 alpha=0.05 lambda=0.0075 </div></div>
+ </td><td><div class="image">
+<img src="degrade.png" alt="degrade.png"/>
+<div class="caption">
+Perfect image</div></div>
+  </td></tr>
+<tr>
+<td>SNR of <em>g</em> = 21.9183  </td><td>SNR of <em>u</em> = 34.3261  </td><td>SNR of <em>u</em> = 34.3655  </td><td>Perfect image   </td></tr>
+</table>
+</center><dl class="section note"><dt>Note</dt><dd>After some experiments, pratical results are very similar to <code>at-u2-v0</code>. Timings are longer since \( | \Delta v |^2 \) induces less sparse matrices.</dd></dl>
+<h1><a class="anchor" id="ATref"></a>
 References</h1>
-<p>[1] Luigi Ambrosio, and Vincenzo Maria Tortorelli. "Approximation of
-functional depending on jumps by elliptic functional via t‐convergence." Communications on Pure and Applied Mathematics 43.8 (1990): 999-1036.</p>
+<p>[1] Luigi Ambrosio, and Vincenzo Maria Tortorelli. "Approximation of functional depending on jumps by elliptic functional via \(\Gamma\)‐convergence." Communications on Pure and Applied Mathematics 43.8 (1990): 999-1036.</p>
 <p>[2] Marion Foare, Jacques-Olivier Lachaud, and Hugues Talbot. "Image restoration
 and segmentation using the Ambrosio-Tortorelli functional and discrete calculus." In Proceedings of the IAPR International Conference on Pattern Recognition (ICPR2016), Cancun, Mexico, 2016.</p>
 <p>[3] Marion Foare, Jacques-Olivier Lachaud, and Hugues Talbot. "Numerical implementation of the Ambrosio-Tortorelli functional using discrete calculus and application to image restoration and inpainting." In Proceedings of 1st Workshop on Reproducible Research In Pattern Recognition (RRPR 2016), Springer LNCS. To appear.</p>
@@ -333,7 +371,7 @@ discontinuity problems in the vectorial case." Mathematical Models and Methods i
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Mon May 25 2020 11:19:21 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Tue Jun 9 2020 15:11:35 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

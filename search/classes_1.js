@@ -50,5 +50,6 @@ var searchData=
   ['associativecontainer',['AssociativeContainer',['https://dgtal-team.github.io/doc-nightly/structboost_1_1AssociativeContainer.html',1,'boost']]],
   ['atu0v1',['ATu0v1',['../structDGtal_1_1ATu0v1.html',1,'DGtal']]],
   ['atu2v0',['ATu2v0',['../structDGtal_1_1ATu2v0.html',1,'DGtal']]],
+  ['atvu2v0',['ATVu2v0',['../structDGtal_1_1ATVu2v0.html',1,'DGtal']]],
   ['avnaimetal2x2detsigncomputer',['AvnaimEtAl2x2DetSignComputer',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1AvnaimEtAl2x2DetSignComputer.html',1,'DGtal']]]
 ];
