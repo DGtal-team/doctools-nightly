@@ -15,6 +15,7 @@ var searchData=
   ['volflip',['volFlip',['../volFlip.html',1,'']]],
   ['volimagemetrics',['volImageMetrics',['../volImageMetrics.html',1,'']]],
   ['volintensityscale',['volIntensityScale',['../volIntensityScale.html',1,'']]],
+  ['volmask',['volMask',['../volMask.html',1,'']]],
   ['volresample',['volReSample',['../volReSample.html',1,'']]],
   ['volsegment',['volSegment',['../volSegment.html',1,'']]],
   ['volshapemetrics',['volShapeMetrics',['../volShapeMetrics.html',1,'']]],

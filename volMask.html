@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
-<title>DGtalTools: Data Fields</title>
+<title>DGtalTools: volMask</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -53,7 +53,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,26 +67,27 @@ $(function() {
 </iframe>
 </div>
 
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">volMask </div>  </div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all struct and union fields with links to the structures/unions they belong to:</div>
-
-<h3><a id="index_h"></a>- h -</h3><ul>
-<li>helpString()
-: <a class="el" href="classViewer3DImage.html#a9e49206b216bc7a2b06fcad3e1e47ee6">Viewer3DImage&lt; Space, KSpace &gt;</a>
-</li>
-<li>hueShade
-: <a class="el" href="structMainWindow_1_1ColorMapFunctor.html#ae1802faef2ee694c2d3dd4223bd201bf">MainWindow::ColorMapFunctor</a>
-</li>
-<li>HueshadeCM
-: <a class="el" href="classMainWindow.html#ac37731eb2f0cb467c41900c791ee97ccaca2c49b23fc053813016ff447903f1f2">MainWindow</a>
-</li>
-</ul>
-</div><!-- contents -->
+<div class="textblock"><p>Extracts a new image from the a mask image that represents the regions of the image which are selected and copied in the resulting image. Elements outside the regions defined by the mask are set to 0.</p>
+<p><b>Usage:</b> volMask [input]</p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> :</p>
+<div class="fragment"><div class="line">-h [ --help ]               display <span class="keyword">this</span> message</div><div class="line">-i [ --input ] arg          an input vol (or ITK: .nii, mha, ... ) file.</div><div class="line">-t [ --inputType ] arg      to specify the input image type (<span class="keywordtype">int</span> or <span class="keywordtype">double</span>).</div><div class="line">-a [ --mask ] arg           the mask image that represents the elements that</div><div class="line">                            are copied as output in the resulting image (by</div><div class="line">                            default set to 1 you can change this value by</div><div class="line">                            using --maskValue).</div><div class="line">-o [ --output ] arg         the output masked image.</div><div class="line">-m [ --maskValue ] arg (=1) the masking value.</div></div><!-- fragment --><p><b>Example:</b> </p>
+<div class="fragment"><div class="line">volMask -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol  -a ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o lobsMasked.vol -m 100</div></div><!-- fragment --><div class="image">
+<img src="resvolMask.png" alt="resvolMask.png"/>
+<div class="caption">
+Example of result. </div></div>
+ <dl class="section see"><dt>See also</dt><dd><a class="el" href="volMask_8cpp_source.html">volMask.cpp</a> </dd></dl>
+</div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Sat Jun 13 2020 19:48:11 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Sat Jun 13 2020 19:48:10 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
