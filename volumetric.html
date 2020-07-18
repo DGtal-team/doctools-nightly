@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
-<title>DGtalTools: $title</title>
+<title>DGtalTools: Volumetric</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -68,6 +68,10 @@ $(function() {
 </div>
 
 </div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Volumetric </div>  </div>
+</div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="section user"><dt>Author(s) of this documentation: Bertrand Kerautret</dt><dd></dd></dl>
 <h1><a class="anchor" id="volumetric_Doc"></a>
@@ -77,13 +81,15 @@ Volumetric</h1>
 <li><a class="el" href="Doc3dVolMarchingCubes.html">3dVolMarchingCubes</a> : outputs the isosurface of the input volume as an OFF file.</li>
 <li><a class="el" href="homotopicThinning3D.html">homotopicThinning3D</a> : applies an homotopic thinning of a 3d image file (vol,longvol,pgm3d...) with 3D viewer.</li>
 <li><a class="el" href="volAddBorder.html">volAddBorder</a> : adds a border of one voxel with value 0 around a vol file.</li>
-<li><a class="el" href="volCComponentCounter.html">volCComponentCounter</a> : counts the number of connected component (same values) in a volume (Vol) file image.</li>
+<li><a class="el" href="volAddNoise.html">volAddNoise</a> : adds Kanungo noise to a binary object with 0 values as background points and values &gt;0 for the foreground ones.</li>
+</ul>
+<p><a class="el" href="volCComponentCounter.html">volCComponentCounter</a> : counts the number of connected component (same values) in a volume (Vol) file image.</p><ul>
 <li><a class="el" href="volCrop.html">volCrop</a> : crops a 3D vol image from domain coordinates.</li>
 <li><a class="el" href="volFillInterior.html">volFillInterior</a> : fills the interior of a voxel set.</li>
 <li><a class="el" href="volFlip.html">volFlip</a> : flips 2D slice image of an 3D vol image (mirror transformation).</li>
 <li><a class="el" href="volImageMetrics.html">volImageMetrics</a> : applies basic image measures (RMSE, PSNR) between two volumetric images A and B.</li>
-<li><a class="el" href="volIntensityScale.html">volIntensityScale</a> : applies a linear rescaling of the image intensity. <br />
- - <a class="el" href="volMask.html">volMask</a> : extracts a new image from the a mask image.</li>
+<li><a class="el" href="volIntensityScale.html">volIntensityScale</a> : applies a linear rescaling of the image intensity.</li>
+<li><a class="el" href="volMask.html">volMask</a> : extracts a new image from the a mask image.</li>
 <li><a class="el" href="volReSample.html">volReSample</a> : re samples a 3D volumetric image (.vol, .longvol, .pgm3d) with a given grid size.</li>
 <li><a class="el" href="volSegment.html">volSegment</a> : segments volumetric file from a simple threshold.</li>
 <li><a class="el" href="volShapeMetrics.html">volShapeMetrics</a> : applies shape measures to compare two volumetric images A and B (shape defined from thresholds).</li>
@@ -131,7 +137,7 @@ Volumetric</h1>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Sun Jun 14 2020 19:21:40 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Sat Jul 18 2020 16:57:32 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
