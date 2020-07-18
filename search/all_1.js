@@ -12,6 +12,7 @@ var searchData=
   ['3dimageviewer',['3dImageViewer',['../Doc3dImageViewer.html',1,'']]],
   ['3dimplicitsurfaceextractorby4dextension',['3dImplicitSurfaceExtractorBy4DExtension',['../Doc3dImplicitSurfaceExtractorBy4DExtension.html',1,'']]],
   ['3dimplicitsurfaceextractorbythickening',['3dImplicitSurfaceExtractorByThickening',['../Doc3dImplicitSurfaceExtractorByThickening.html',1,'']]],
+  ['3dlocalestimators',['3dLocalEstimators',['../Doc3dLocalEstimators.html',1,'']]],
   ['3dsdpviewer',['3DSDPViewer',['../Doc3DSDPViewer.html',1,'']]],
   ['3dvolboundaryviewer',['3dVolBoundaryViewer',['../Doc3dVolBoundaryViewer.html',1,'']]],
   ['3dvolmarchingcubes',['3dVolMarchingCubes',['../Doc3dVolMarchingCubes.html',1,'']]],

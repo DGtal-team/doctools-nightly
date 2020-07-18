@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
-<title>DGtalTools: vol2normalField</title>
+<title>DGtalTools: 3dLocalEstimators</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,19 +70,25 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">vol2normalField </div>  </div>
+<div class="title">3dLocalEstimators </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Generates normal vector field from a vol file using <a class="el" href="namespaceDGtal.html">DGtal</a> library.</p>
-<p>It will output the embedded vector field (Gaussian convolution on elementary normal vectors) an OFF file, and a TXT normal vector file (theta, phi in degree).</p>
-<p><b>Usage:</b> vol2normalField[options] &ndash;input &lt;volFileName&gt; &ndash;o &lt;outputFileName&gt;</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]                   display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg              Input vol file.</div><div class="line">-o [ --output ] arg             Output filename.</div><div class="line">-l [ --level ] arg (=0)         Iso-level for the surface construction.</div><div class="line">-s [ --sigma ] arg (=5)         Sigma parameter of the Gaussian kernel.</div><div class="line">--exportOriginAndExtremity      exports the origin and extremity of the </div><div class="line">                                vector fields when exporting the vector field</div><div class="line">                                in TXT format (useful to be displayed in </div><div class="line">                                other viewer like meshViewer).</div><div class="line">-N [ --vectorsNorm ] arg (=1)   set the norm of the exported vectors in TXT </div><div class="line">                                format (when the extremity points are </div><div class="line">                                exported with --exportOriginAndExtremity). By</div><div class="line">                                using a negative value you will invert the </div><div class="line">                                direction of the vectors.</div><div class="line">-n [ --neighborhood ] arg (=10) Size of the neighborhood for the convolution </div><div class="line">                                (distance on surfel graph).</div></div><!-- fragment --><p><b>Example:</b> </p>
-<p>We consider the generation of normal vector field from the Iso-level 40 and export the vectors with a norm = -3 (negative value to invert the normal direction).</p>
-<div class="fragment"><div class="line">$ vol2normalField -i $DGtal/examples/samples/lobster.vol -o lobTreshold40 -l 40 --exportOriginAndExtremity  -N -3</div></div><!-- fragment --><p>You can use the too meshViewer to display the resulting vector field with the Iso-level surface: </p><div class="fragment"><div class="line">$ meshViewer -i lobTreshold40.off -f lobTreshold40.txt  --vectorFieldIndex 2 3 4 5 6 7  -n</div></div><!-- fragment --><p>You should obtain such a result: </p><div class="image">
-<img src="resVol2normalField.png" alt="resVol2normalField.png"/>
-<div class="caption">
-Resulting vector field visualization.</div></div>
- <dl class="section see"><dt>See also</dt><dd><a class="el" href="vol2normalField_8cpp_source.html">vol2normalField.cpp</a> </dd></dl>
+<div class="textblock"><p>Compares local estimators on implicit shapes using <a class="el" href="namespaceDGtal.html">DGtal</a> library.</p>
+<p><b>Usage:</b> 3dLocalEstimators [options] &ndash;shape &lt;shape&gt; &ndash;h &lt;h&gt; &ndash;radius &lt;radius&gt; &ndash;estimators &lt;binaryWord&gt; &ndash;output &lt;output&gt;</p>
+<p>Below are the different available families of estimators:</p><ul>
+<li>Integral Invariant Mean</li>
+<li>Integral Invariant Gaussian</li>
+<li>Monge Jet Fitting Mean</li>
+<li>Monge Jet Fitting Gaussian</li>
+</ul>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]                      display <span class="keyword">this</span> message</div><div class="line">-s [ --shape ] arg                 Shape</div><div class="line">-o [ --output ] arg                Output file</div><div class="line">-r [ --radius ] arg                Kernel radius <span class="keywordflow">for</span> IntegralInvariant</div><div class="line">--alpha arg (=0.33333333333333331) Alpha parameter for Integral Invariant</div><div class="line">                                   computation</div><div class="line">--h arg                            Grid step</div><div class="line">-a [ --minAABB ] arg (=-10)        Min value of the AABB bounding box</div><div class="line">                                   (domain)</div><div class="line">-A [ --maxAABB ] arg (=10)         Max value of the AABB bounding box</div><div class="line">                                   (domain)</div><div class="line">-n [ --noise ] arg (=0)            Level of noise to perturb the shape</div><div class="line">-l [ --lambda ] arg (=0)           Use the shape to get a better</div><div class="line">                                   approximation of the surface (optional)</div><div class="line">--properties arg (=110)            the i-th property is disabled iff there is</div><div class="line">                                   a 0 at position i</div><div class="line">-e [ --estimators ] arg (=110)     the i-th estimator is disabled iff there</div><div class="line">                                   is a 0 at position i</div></div><!-- fragment --><p><b>Example:</b> The following example will estimate the curvature of an implicit cone shape and will produce six resulting files (toto_II_gaussian.dat,toto_II_mean.dat, toto_MongeJetFitting_gaussian.dat, toto_MongeJetFitting_mean.dat, toto_True_gaussian.dat, toto_True_mean.dat) </p><div class="fragment"><div class="line">./estimators/3dlocalEstimators --shape <span class="stringliteral">&quot;z^2-x^2-y^2&quot;</span> --output result --h 0.4 --radius 1.0</div></div><!-- fragment --><p> You can check other example of implicit shapes like the followinf:</p><ul>
+<li>whitney : x^2-y*z^2</li>
+<li>4lines : x*y*(y-x)*(y-z*x)</li>
+<li>cone : z^2-x^2-y^2</li>
+<li>simonU : x^2-z*y^2+x^4+y^4</li>
+<li>cayley3 : 4*(x^2 + y^2 + z^2) + 16*x*y*z - 1</li>
+<li>crixxi : -0.9*(y^2+z^2-1)^2-(x^2+y^2-1)^3 </li>
+</ul>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
