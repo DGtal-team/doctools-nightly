@@ -75,7 +75,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Computes satistics (L1, L2, Loo) from results of two estimators.</p>
 <p><b>Usage:</b> statisticsEstimators &ndash;file1 &lt;file1&gt; &ndash;column1 &lt;column1&gt; &ndash;file2 &lt;file2&gt; &ndash;column2 &lt;column2&gt; &ndash;output &lt;output&gt;</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]           display <span class="keyword">this</span> message</div><div class="line">-f [ --file1 ] arg      File 1</div><div class="line">-F [ --file2 ] arg      File 2</div><div class="line">-c [ --column1 ] arg    Column of file 1</div><div class="line">-C [ --column2 ] arg    Column of file 2</div><div class="line">-o [ --output ] arg     Output file</div><div class="line">-m [ --monge ] arg (=0) Is from Monge mean computation (optional)</div></div><!-- fragment --><p><b>Example:</b> </p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">Positionals:</div><div class="line">1 TEXT:FILE REQUIRED                  File 1.</div><div class="line">2 TEXT:FILE REQUIRED                  File 2.</div><div class="line"></div><div class="line">Options:</div><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">-f,--file1 TEXT:FILE REQUIRED         File 1.</div><div class="line">-F,--file2 TEXT:FILE REQUIRED         File 2.</div><div class="line">-c,--column1 UINT REQUIRED            Column of file 1</div><div class="line">-C,--column2 UINT REQUIRED            Column of file 2</div><div class="line">-o,--output TEXT REQUIRED             Output file</div><div class="line">-m,--monge BOOLEAN=0                  Is from Monge mean computation (optional, <span class="keywordflow">default</span> <span class="keyword">false</span>)</div></div><!-- fragment --><p><b>Example:</b> </p>
 <p>This tool can be used in association to other estimator with for instance the <a class="el" href="Doc2dLocalEstimators.html">2dLocalEstimators</a> which gives as output a file containing the curvature:</p>
 <div class="fragment"><div class="line">./estimators/2dlocalEstimators --output curvature --shape flower --radius 15 -v 5  --gridstep 1  --estimators 11100 --properties 01</div></div><!-- fragment --><p>Then you can use this tool as follows: </p><div class="fragment"><div class="line">./estimators/statisticsEstimators --file1 curvature_True_curvature.dat --column1 0 --file2 curvature_II_curvature.dat --column2 0 -o result.dat</div></div><!-- fragment --><p>The resulting file result.dat should contains: </p><pre class="fragment"># h | L1 Mean Error | L2 Mean Error | Loo Mean Error
 1 0.0844106 0.0108399 0.519307
@@ -85,7 +85,7 @@ $(function() {
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

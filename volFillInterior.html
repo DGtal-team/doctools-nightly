@@ -75,14 +75,14 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Fills the interior of a voxel shape. The process can be sketched as follows: First the volume is filled in a breath-first approach from the point (0,0,0) (supposed to be exterior) using 6-adjacency. Then the complement is returned.</p>
 <p><b>Usage:</b> volFillInterior &ndash;input &lt;volFileName&gt; -o &lt;volOutputFileName&gt; (vol, longvol, p3d format)</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]         display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg    Input vol file.</div><div class="line">-o [ --output ] arg   Output filename.</div></div><!-- fragment --><p><b>Example:</b> </p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  Input vol file.</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         Input vol file.</div><div class="line">  -o,--output TEXT=result.vol           Output filename.</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">$ volFlip -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o filled.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="volFillInterior.html">volFillInterior</a> </dd></dl>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

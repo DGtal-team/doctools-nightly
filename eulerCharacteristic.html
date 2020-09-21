@@ -76,7 +76,7 @@ $(function() {
 <div class="textblock"><p>Computes the Euleur Characteristic of a vol to a 8-bit raw file.</p>
 <p>The vol file is first binarized using interval [m,M[ thresholds and the Eucler characteristic is given from the cubical complex.</p>
 <p><b>Usage:</b> eulerCharacteristic &ndash;input &lt;volFileName&gt; -m &lt;minlevel&gt; -M &lt;maxlevel&gt;</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]                    display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg               Input vol file.</div><div class="line">-m [ --thresholdMin ] arg (=0)   threshold min (excluded) to define binary </div><div class="line">                                 shape</div><div class="line">-M [ --thresholdMax ] arg (=255) threshold max (included) to define binary </div></div><!-- fragment --><p><b>Example:</b> </p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">Positionals:</div><div class="line">1 TEXT:FILE REQUIRED                  Input vol file.</div><div class="line"></div><div class="line">Options:</div><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">-i,--input TEXT:FILE REQUIRED         Input vol file.</div><div class="line">-m,--thresholdMin INT=0               threshold min (excluded) to define binary shape (<span class="keywordflow">default</span> 0)</div><div class="line">-M,--thresholdMax INT=255             threshold max (included) to define binary shape (<span class="keywordflow">default</span> 255)</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">eulerCharacteristic -i $DGtal/examples/samples/cat10.vol -m 0</div></div><!-- fragment --><p>You should obtain such a result: </p><pre class="fragment">Got 72479 cells
 Got 10128 pointels 28196 linels  26112 surfels and 8043  bells
 Volumetric Euler Characteristic = 1
@@ -86,7 +86,7 @@ Volumetric Euler Characteristic = 1
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

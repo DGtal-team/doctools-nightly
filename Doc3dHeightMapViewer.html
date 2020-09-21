@@ -76,7 +76,7 @@ $(function() {
 <div class="textblock"><p>Displays 2D image as heightmap by using QGLviewer.</p>
 <p><b>Usage:</b> 3dImageViewer [options] input</p>
 <p><b>Allowed</b> <b>options</b> <b>are</b> :</p>
-<div class="fragment"><div class="line">-h [ --help ]                  display <span class="keyword">this</span> message</div><div class="line">-s [ --scale ] arg (=1)        set the scale of the maximal level. (default </div><div class="line">                               1.0)</div><div class="line">-c [ --colorMap ]              define the heightmap color with a pre-defined </div><div class="line">                               colormap (GradientColorMap)</div><div class="line">-t [ --colorTextureImage ] arg define the heightmap color from a given color </div><div class="line">                               image (32 bits image).</div><div class="line">-i [ --input-file ] arg        2d input image representing the height map </div><div class="line">                               (given as grayscape image cast into 8 bits).</div></div><!-- fragment --><p><b>Example:</b> </p>
+<div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  2d input image representing the height map (given as grayscape image cast into 8 bits).</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         2d input image representing the height map (given as grayscape image cast into 8 bits).</div><div class="line">  -s,--scale FLOAT                      <span class="keyword">set</span> the scale of the maximal level. (<span class="keywordflow">default</span> 1.0)</div><div class="line">  -c,--colorMap                         define the heightmap color with a pre-defined colormap (GradientColorMap)</div><div class="line">  -t,--colorTextureImage TEXT           define the heightmap color from a given color image (32 bits image).</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">$ visualisation/3dHeightMapViewer -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/church.pgm -s 0.2</div></div><!-- fragment --><p>You should obtain such a result:</p>
 <div class="image">
 <img src="res3dHeightMapViewer.png" alt="res3dHeightMapViewer.png"/>
@@ -88,7 +88,7 @@ resulting heightmap visualisation.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

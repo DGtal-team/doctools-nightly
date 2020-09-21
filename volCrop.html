@@ -75,7 +75,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Crops a 3D vol image from domain coordinates.</p>
 <p><b>Usage:</b> volCrop &ndash;input &lt;volFileName&gt; &ndash;o &lt;volOutputFileName&gt; (both files can be independently in vol, pgm3D, p3d format)</p>
-<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">-h [ --help ]                     display <span class="keyword">this</span> message.</div><div class="line">-i [ --input ] arg                Input vol file.</div><div class="line">--xMin arg (=0)                   x coordinate of lower point.</div><div class="line">--yMin arg (=0)                   y coordinate of lower point.</div><div class="line">--zMin arg (=0)                   z coordinate of lower point.</div><div class="line">--xMax arg                        x coordinate of upper point.</div><div class="line">--yMax arg                        y coordinate of upper point.</div><div class="line">--zMax arg                        z coordinate of upper point.</div><div class="line">-o [ --output ] arg (=output.vol) Output filename.</div></div><!-- fragment --><p><b>Example:</b> </p>
+<p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  Input vol file.</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         Input vol file.</div><div class="line">  -o,--output TEXT=output.vol           Output filename.</div><div class="line">  --xMin INT=0                          x coordinate of lower point.</div><div class="line">  --yMin INT=0                          y coordinate of lower point.</div><div class="line">  --zMin INT=0                          z coordinate of lower point.</div><div class="line">  --xMax INT REQUIRED                   x coordinate of upper point.</div><div class="line">  --yMax INT REQUIRED                   y coordinate of upper point.</div><div class="line">  --zMax INT REQUIRED                   z coordinate of upper point.</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">$ volCrop --xMin 50 --yMin 50 --zMin 10 --xMax 150 --yMax 150 --zMax 50 -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o croppedLobster.vol </div><div class="line">$ 3dImageViewer -i croppedLobster.vol</div></div><!-- fragment --><p>You should obtain such a visualization: </p><div class="image">
 <img src="resVolCrop.png" alt="resVolCrop.png"/>
 <div class="caption">
@@ -86,7 +86,7 @@ Resulting visualization.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

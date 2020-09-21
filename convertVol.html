@@ -76,13 +76,13 @@ $(function() {
 <div class="textblock"><p>Converts volumetric file into volumetric file from different formats (pgm3d, vol, longvol). This tool can also be used to upgrade a Version-2 Vol or Longvol file to the new (compressed) Version-3.</p>
 <p><b>Usage:</b> convertVol [input] [output]</p>
 <p><b>Allowed</b> <b>options</b> <b>are:</b> </p>
-<div class="fragment"><div class="line">-h [ --help ]         display <span class="keyword">this</span> message</div><div class="line">-i [ --input ] arg    volumetric file (.pgm3d, .vol, .longvol) </div><div class="line">-o [ --output ] arg   volumetric file (.pgm3d, .vol, .longvol) </div></div><!-- fragment --><p><b>Examples:</b> </p><div class="fragment"><div class="line">$ convertVol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o convertedVol.p3d </div></div><!-- fragment --><p>To upgrade a "Version-2" vol file to a "Version-3" (default Vol writer): </p><div class="fragment"><div class="line">$ convertVol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="convertVol_8cpp_source.html">convertVol.cpp</a> </dd></dl>
+<div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  volumetric file (.pgm3d, .vol, .longvol).</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         volumetric file (.pgm3d, .vol, .longvol).</div><div class="line">  -o,--output TEXT                      volumetric file (.pgm3d, .vol, .longvol)</div></div><!-- fragment --><p><b>Examples:</b> </p><div class="fragment"><div class="line">$ convertVol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o convertedVol.p3d </div></div><!-- fragment --><p>To upgrade a "Version-2" vol file to a "Version-3" (default Vol writer): </p><div class="fragment"><div class="line">$ convertVol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="convertVol_8cpp_source.html">convertVol.cpp</a> </dd></dl>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

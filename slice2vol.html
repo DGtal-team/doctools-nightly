@@ -76,13 +76,13 @@ $(function() {
 <div class="textblock"><p>Converts set of 2D images into volumetric file (pgm3d, vol, longvol).</p>
 <p><b>Usage:</b> slice2vol [input] [output]</p>
 <p><b>Allowed</b> <b>options</b> <b>are:</b> </p>
-<div class="fragment"><div class="line">-h [ --help ]                      display <span class="keyword">this</span> message</div><div class="line">-s [ --sliceOrientation ] arg (=2) specify the slice orientation for which the slice are considered (by default =2 (Z direction))</div><div class="line">-i [ --input ] arg                 input 2D files (.pgm) </div><div class="line">-o [ --output ] arg                volumetric file (.vol, .longvol .pgm3d) </div></div><!-- fragment --><p><b>Example:</b> </p><div class="fragment"><div class="line">$ slice2vol -i slice1.pgm slice2.pgm slice3.pgm  -o out.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="slice2vol_8cpp_source.html">slice2vol.cpp</a> </dd></dl>
+<div class="fragment"><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT ... REQUIRED          input 2D files (.pgm)</div><div class="line">  -o,--output TEXT                      volumetric file (.vol, .longvol .pgm3d)</div><div class="line">  -s,--sliceOrientation UINT:{0,1,2}=2  specify the slice orientation <span class="keywordflow">for</span> which the slice are defined (by <span class="keywordflow">default</span> =2 (Z direction))</div></div><!-- fragment --><p><b>Example:</b> </p><div class="fragment"><div class="line">$ slice2vol -i slice1.pgm slice2.pgm slice3.pgm  -o out.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="slice2vol_8cpp_source.html">slice2vol.cpp</a> </dd></dl>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

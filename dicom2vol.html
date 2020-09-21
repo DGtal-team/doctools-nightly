@@ -76,13 +76,13 @@ $(function() {
 <div class="textblock"><p>Converts dicom file into a volumetric file (.vol, .longvol .pgm3d).</p>
 <p><b>Usage:</b> dicom2vol [input] [output]</p>
 <p><b>Allowed</b> <b>options</b> <b>are:</b> </p>
-<div class="fragment"><div class="line">-h [ --help ]           display <span class="keyword">this</span> message</div><div class="line">-i [ --input ] arg      dicom image  (.dcm) </div><div class="line">-o [ --output ] arg     volumetric file (.vol, .longvol .pgm3d) </div><div class="line">--dicomMin arg (=-1000) set minimum density threshold on Hounsfield scale</div><div class="line">--dicomMax arg (=3000)  set maximum density threshold on Hounsfield scale</div></div><!-- fragment --><p><b>Example:</b> </p><div class="fragment"><div class="line">$ dicom2vol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/tests/samples/dicomSample/1629.dcm --dicomMin -500 --dicomMax -100 -o sample.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="dicom2vol_8cpp_source.html">dicom2vol.cpp</a> </dd></dl>
+<div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  dicom image  (.dcm).</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         dicom image  (.dcm).</div><div class="line">  -o,--output TEXT                      volumetric file (.vol, .longvol .pgm3d, .raw)</div><div class="line">  --dicomMin INT                        <span class="keyword">set</span> minimum density threshold on Hounsfield scale</div><div class="line">  --dicomMax INT                        <span class="keyword">set</span> maximum density threshold on Hounsfield scale</div></div><!-- fragment --><p><b>Example:</b> </p><div class="fragment"><div class="line">$  dicom2vol -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/tests/samples/dicomSample/1629.dcm --dicomMin 0 --dicomMax 300 -o sample.vol</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="dicom2vol_8cpp_source.html">dicom2vol.cpp</a> </dd></dl>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -76,7 +76,7 @@ $(function() {
 <div class="textblock"><p>Extracts a new image from the a mask image that represents the regions of the image which are selected and copied in the resulting image. Elements outside the regions defined by the mask are set to 0.</p>
 <p><b>Usage:</b> volMask [input]</p>
 <p><b>Allowed</b> <b>options</b> <b>are</b> :</p>
-<div class="fragment"><div class="line">-h [ --help ]               display <span class="keyword">this</span> message</div><div class="line">-i [ --input ] arg          an input vol (or ITK: .nii, mha, ... ) file.</div><div class="line">-t [ --inputType ] arg      to specify the input image type (<span class="keywordtype">int</span> or <span class="keywordtype">double</span>).</div><div class="line">-a [ --mask ] arg           the mask image that represents the elements that</div><div class="line">                            are copied as output in the resulting image (by</div><div class="line">                            default set to 1 you can change this value by</div><div class="line">                            using --maskValue).</div><div class="line">-o [ --output ] arg         the output masked image.</div><div class="line">-m [ --maskValue ] arg (=1) the masking value.</div></div><!-- fragment --><p><b>Example:</b> </p>
+<div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  an input 3D image vol (or ITK: .nii, mha, ... ) file.</div><div class="line">  2 TEXT=result.vol                     the output masked image.</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print this help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         an input 3D image vol (or ITK: .nii, mha, ... ) file.</div><div class="line">  -t,--inputType TEXT                   to specify the input image type (<span class="keywordtype">int</span> or <span class="keywordtype">double</span>).</div><div class="line">  -a,--mask TEXT:FILE                   the mask image that represents the elements that are copied as output in the resulting image (by default set to 1 you can change this value by using --maskValue).</div><div class="line">  -o,--output TEXT=result.vol           the output masked image.</div><div class="line">  -f,--offsetBorder UINT=0              add a border offset to the bounding box of the masked value domain.</div><div class="line">  -m,--maskValue INT=1                  the masking value.</div></div><!-- fragment --><p><b>Example:</b> </p>
 <div class="fragment"><div class="line">volMask -i ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol  -a ${<a class="code" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o lobsMasked.vol -m 100</div></div><!-- fragment --><div class="image">
 <img src="resvolMask.png" alt="resvolMask.png"/>
 <div class="caption">
@@ -87,7 +87,7 @@ Example of result. </div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Wed Sep 9 2020 10:54:49 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon Sep 21 2020 09:36:26 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

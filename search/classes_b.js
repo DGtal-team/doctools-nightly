@@ -9,7 +9,7 @@ var searchData=
   ['labelledmap_3c_20value_2c_20l_2c_20tword_2c_20n_2c_20m_20_3e',['LabelledMap&lt; Value, L, TWord, N, M &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1LabelledMap.html',1,'']]],
   ['labelledmapmemfunctor',['LabelledMapMemFunctor',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1detail_1_1LabelledMapMemFunctor.html',1,'DGtal::detail']]],
   ['labels',['Labels',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Labels.html',1,'DGtal']]],
-  ['labels_3c_20l_2c_20word_20_3e',['Labels&lt; L, Word &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Labels.html',1,'Labels&lt; L, Word &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Labels.html',1,'DGtal::Labels&lt; L, Word &gt;']]],
+  ['labels_3c_20l_2c_20word_20_3e',['Labels&lt; L, Word &gt;',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Labels.html',1,'DGtal::Labels&lt; L, Word &gt;'],['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1Labels.html',1,'Labels&lt; L, Word &gt;']]],
   ['lambda64function',['Lambda64Function',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1functors_1_1Lambda64Function.html',1,'DGtal::functors']]],
   ['lambdaexponentialfunction',['LambdaExponentialFunction',['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1functors_1_1LambdaExponentialFunction.html',1,'DGtal::functors']]],
   ['lambdamst2d',['LambdaMST2D',['https://dgtal-team.github.io/doc-nightly/classDGtal_1_1LambdaMST2D.html',1,'DGtal']]],
