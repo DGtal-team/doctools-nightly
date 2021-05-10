@@ -78,7 +78,7 @@ $(function() {
 <p><b>Usage:</b> 3dVolViewer [input]</p>
 <p><b>Allowed</b> <b>options</b> <b>are</b> :</p>
 <div class="fragment"><div class="line">Positionals:</div><div class="line">  1 TEXT:FILE REQUIRED                  vol file (.vol, .longvol .p3d, .pgm3d and <span class="keywordflow">if</span> WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div><div class="line"></div><div class="line">Options:</div><div class="line">  -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">  -i,--input TEXT:FILE REQUIRED         vol file (.vol, .longvol .p3d, .pgm3d and <span class="keywordflow">if</span> WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div><div class="line">  -m,--thresholdMin INT=0               threshold min (excluded) to define binary shape.</div><div class="line">  -M,--thresholdMax INT=255             threshold max (included) to define binary shape.</div><div class="line">  --rescaleInputMin INT=0               min value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div><div class="line">  --rescaleInputMax INT=255             max value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div><div class="line">  -n,--numMaxVoxel UINT                 <span class="keyword">set</span> the maximal voxel number to be displayed.</div><div class="line">  --displayMesh TEXT                    display a Mesh given in OFF or OFS format.</div><div class="line">  --colorMesh UINT ...                  <span class="keyword">set</span> the color of Mesh (given from displayMesh option) : r g b a</div><div class="line">  -d,--doSnapShotAndExit                save display snapshot into file. Notes that the camera setting is set by default according the last saved configuration (use SHIFT+Key_M to save current camera setting in the Viewer3D). If the camera setting was not saved it will use the default camera setting.</div><div class="line">  -t,--transparency UINT=255            change the defaukt transparency</div></div><!-- fragment --><p><b>Example:</b> </p>
-<div class="fragment"><div class="line">$ 3dVolViewer -i $DGtal/examples/samples/lobster.vol -m 60 -t 10</div></div><!-- fragment --><p>You should obtain such a result:</p>
+<div class="fragment"><div class="line">$ 3dVolViewer $DGtal/examples/samples/lobster.vol -m 60 -t 10</div></div><!-- fragment --><p>You should obtain such a result:</p>
 <div class="image">
 <img src="res3dVolViewer.png" alt="res3dVolViewer.png"/>
 <div class="caption">
@@ -89,7 +89,7 @@ Resulting visualization.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Tue May 4 2021 08:41:08 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon May 10 2021 19:24:10 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

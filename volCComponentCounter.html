@@ -76,7 +76,7 @@ $(function() {
 <div class="textblock"><p>Counts the number of connected component (same values) in a volume (Vol) file image.</p>
 <p><b>Usage:</b> ./volumetric/volCComponentCounter [OPTIONS] 1</p>
 <p><b>Allowed</b> <b>options</b> <b>are</b> : </p><div class="fragment"><div class="line">Positionals:</div><div class="line">    1 TEXT:FILE REQUIRED                  volume file (.vol).</div><div class="line"></div><div class="line">  Options:</div><div class="line">    -h,--help                             Print <span class="keyword">this</span> help message and exit</div><div class="line">    -i,--input TEXT:FILE REQUIRED         volume file (.vol).</div><div class="line">    -c,--connectivity UINT:{6,18,26}=6    <span class="keywordtype">object</span> connectivity (6,18,26) (<span class="keywordflow">default</span>: 6 ).</div></div><!-- fragment --><p><b>Example:</b> </p>
-<div class="fragment"><div class="line">$ volCComponentCounter -i $DGtal/examples/samples/Al.100.vol </div></div><!-- fragment --><p>You should obtain: </p><pre class="fragment">New Block [Initial disjoint sets construction]
+<div class="fragment"><div class="line">$ volCComponentCounter $DGtal/examples/samples/Al.100.vol</div></div><!-- fragment --><p>You should obtain: </p><pre class="fragment">New Block [Initial disjoint sets construction]
 EndBlock [Initial disjoint sets construction] (515.602 ms)
 New Block [Merging neighboring sets]
 EndBlock [Merging neighboring sets] (1672.21 ms)
@@ -87,7 +87,7 @@ Number of disjoint 6-components = 2
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Tue May 4 2021 08:41:08 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
+    Generated on Mon May 10 2021 19:24:11 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
