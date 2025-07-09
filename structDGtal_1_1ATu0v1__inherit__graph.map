@@ -1,5 +1,5 @@
 <map id="DGtal::ATu0v1&lt; TKSpace, TLinearAlgebra &gt;" name="DGtal::ATu0v1&lt; TKSpace, TLinearAlgebra &gt;">
-<area shape="rect" id="node1" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 0&#45;form(s) and v ..." alt="" coords="19,229,207,271"/>
-<area shape="rect" id="node2" href="$structDGtal_1_1DECImage2D.html" title=" " alt="" coords="5,124,221,180"/>
-<area shape="rect" id="node3" href="$structDGtal_1_1DECImage2D.html" title="Aim: This class simplifies the development of 2D image processing tools using discrete exterior calcu..." alt="" coords="12,5,215,47"/>
+<area shape="rect" id="Node000001" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 0&#45;form(s) and v ..." alt="" coords="13,93,201,133"/>
+<area shape="rect" id="Node000002" href="$structDGtal_1_1DECImage2D.html" title="Aim: This class simplifies the development of 2D image processing tools using discrete exterior calcu..." alt="" coords="5,5,208,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,93,104,93,104,59"/>
 </map>

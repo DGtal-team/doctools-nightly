@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['generators_11652',['Generators',['../generators.html',1,'']]],
-  ['generic3dnormalestimators_11653',['generic3dNormalEstimators',['../generic3dNormalEstimators.html',1,'']]],
-  ['geometric_20transformations_11654',['Geometric transformations',['https://dgtal-team.github.io/doc-nightly/moduleGeometricTransform.html',1,'']]],
-  ['geometry_20concepts_11655',['Geometry Concepts',['https://dgtal-team.github.io/doc-nightly/packageGeometryConcepts.html',1,'']]],
-  ['geometry_20package_11656',['Geometry package',['https://dgtal-team.github.io/doc-nightly/packageGeometry.html',1,'']]],
-  ['git_2fgithub_20source_20code_20management_20in_20dgtal_11657',['Git/Github source code management in DGtal',['https://dgtal-team.github.io/doc-nightly/moduleFAQGit.html',1,'']]],
-  ['graph_20main_20concepts_11658',['Graph Main Concepts',['https://dgtal-team.github.io/doc-nightly/packageGraphConcepts.html',1,'']]],
-  ['graph_20package_11659',['Graph package',['https://dgtal-team.github.io/doc-nightly/packageGraph.html',1,'']]]
+  ['embedding_20n_20dimensional_20dec_20structures_20into_20m_20dimensional_20space_0',['Embedding n-dimensional DEC structures into m-dimensional space',['https://dgtal-team.github.io/doc-nightly/moduleDECEmbedding.html',1,'']]],
+  ['estimation_1',['estimation',['https://dgtal-team.github.io/doc-nightly/moduleVCM.html',1,'Digital Voronoi Covariance Measure and geometry estimation'],['https://dgtal-team.github.io/doc-nightly/tutoShapeGridCurveEstimator.html',1,'Tutorial &quot;Generated shape -&gt; Grid curve -&gt; Length estimation&quot;'],['https://dgtal-team.github.io/doc-nightly/tutoImageGridCurveEstimator.html',1,'Tutorial &quot;Image -&gt; Region -&gt; Grid curve -&gt; Length estimation&quot;'],['https://dgtal-team.github.io/doc-nightly/tutoAreaSurface.html',1,'Tutorial: Surface area estimation']]],
+  ['estimator_202d_203d_2',['Integral invariant curvature estimator 2D/3D',['https://dgtal-team.github.io/doc-nightly/moduleIntegralInvariant.html',1,'']]],
+  ['estimators_3',['Estimators',['../estimators.html',1,'']]],
+  ['estimators_20from_20surfel_20functors_4',['Local digital surface estimators from surfel functors',['https://dgtal-team.github.io/doc-nightly/LocalEstimatorsFromSurfel.html',1,'']]],
+  ['eulercharacteristic_5',['eulerCharacteristic',['../eulerCharacteristic.html',1,'']]],
+  ['explanation_20of_20coba_20plane_20recognition_20algorithm_6',['Detailed explanation of COBA plane recognition algorithm',['https://dgtal-team.github.io/doc-nightly/moduleCOBANaivePlaneRecognition.html',1,'']]],
+  ['export_7',['Image and digital object import/export',['https://dgtal-team.github.io/doc-nightly/moduleIO.html',1,'']]],
+  ['exterior_20calculus_8',['Discrete exterior calculus',['https://dgtal-team.github.io/doc-nightly/moduleDECIntroduction.html',1,'']]],
+  ['extracting_20level_20set_20boundary_20from_20image_9',['Tutorial &quot;Image -&gt; Region -&gt; Grid curve -&gt;  Extracting level set boundary from Image&quot;',['https://dgtal-team.github.io/doc-nightly/tutoImageGridCurveExtraction.html',1,'']]]
 ];

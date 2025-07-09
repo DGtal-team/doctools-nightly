@@ -1,7 +1,11 @@
 <map id="DGtal::DECImage2D&lt; TKSpace, TLinearAlgebra &gt;" name="DGtal::DECImage2D&lt; TKSpace, TLinearAlgebra &gt;">
-<area shape="rect" id="node1" title="Aim: This class simplifies the development of 2D image processing tools using discrete exterior calcu..." alt="" coords="5,71,208,112"/>
-<area shape="rect" id="node2" href="$structDGtal_1_1DECImage2D.html" title=" " alt="" coords="465,63,681,119"/>
-<area shape="rect" id="node3" href="$structDGtal_1_1ATVu2v0.html" title="Aim: This class solves a variant of Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 2&#45;f..." alt="" coords="731,5,929,47"/>
-<area shape="rect" id="node4" href="$structDGtal_1_1ATu0v1.html" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 0&#45;form(s) and v ..." alt="" coords="736,71,924,112"/>
-<area shape="rect" id="node5" href="$structDGtal_1_1ATu2v0.html" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 2&#45;form(s) and v ..." alt="" coords="736,136,924,177"/>
+<area shape="rect" id="Node000001" title="Aim: This class simplifies the development of 2D image processing tools using discrete exterior calcu..." alt="" coords="5,101,208,141"/>
+<area shape="rect" id="Node000002" href="$structDGtal_1_1ATVu2v0.html" title="Aim: This class solves a variant of Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 2&#45;f..." alt="" coords="474,5,673,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,95,231,85,473,39,474,44,233,91,192,100"/>
+<area shape="rect" id="Node000003" href="$structDGtal_1_1ATu0v1.html" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 0&#45;form(s) and v ..." alt="" coords="479,69,667,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,111,479,93,479,98,222,116"/>
+<area shape="rect" id="Node000004" href="$structDGtal_1_1ATu2v0.html" title="Aim: This class solves Ambrosio&#45;Tortorelli functional in a plane for u a (vector of) 2&#45;form(s) and v ..." alt="" coords="479,133,667,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,127,479,144,479,150,221,132"/>
+<area shape="rect" id="Node000005" href="$structDGtal_1_1DECImage2D.html" title=" " alt="" coords="465,198,681,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="157,145,194,162,233,176,292,191,352,202,465,216,465,221,351,207,290,196,231,181,192,167,155,150"/>
 </map>

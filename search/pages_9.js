@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['handle_20large_20images_20in_20dgtal_11660',['Handle large images in DGtal',['https://dgtal-team.github.io/doc-nightly/moduleBigImages.html',1,'']]],
-  ['hdf52vol_11661',['HDF52vol',['../HDF52vol.html',1,'']]],
-  ['heightfield2shading_11662',['heightfield2shading',['../heightfield2shading.html',1,'']]],
-  ['heightfield2vol_11663',['heightfield2vol',['../heightfield2vol.html',1,'']]],
-  ['helmoltz_20decomposition_11664',['Helmoltz decomposition',['https://dgtal-team.github.io/doc-nightly/moduleDECHelmoltz.html',1,'']]],
-  ['helpers_20for_20digital_20surfaces_11665',['Helpers for digital surfaces',['https://dgtal-team.github.io/doc-nightly/moduleDigitalSurfaceHelpers.html',1,'']]],
-  ['homotopicthinning3d_11666',['homotopicThinning3D',['../homotopicThinning3D.html',1,'']]],
-  ['how_20to_20use_20dgtal_20in_20my_20own_20project_20_3f_11667',['How to use DGtal in my own project ?',['https://dgtal-team.github.io/doc-nightly/moduleHowToUseDGtal.html',1,'']]],
-  ['how_20to_20use_20dgtal_20in_20my_20own_20project_20with_20other_20build_20systems_3f_11668',['How to use DGtal in my own project with other build systems?',['https://dgtal-team.github.io/doc-nightly/moduleHowToUseDGtal-qmake.html',1,'']]]
+  ['fast_20marching_20method_0',['Tutorial: Local morphological opening of a 3d volume by the Fast Marching Method',['https://dgtal-team.github.io/doc-nightly/tutoFMMErosion.html',1,'']]],
+  ['fast_20marching_20methods_1',['nD Fast Marching Methods',['https://dgtal-team.github.io/doc-nightly/moduleFMM.html',1,'']]],
+  ['file_20grid_20curve_20ranges_2',['Tutorial &quot;File -&gt; Grid Curve -&gt; Ranges&quot;',['https://dgtal-team.github.io/doc-nightly/tutoFileGridCurveRanges.html',1,'']]],
+  ['for_20digital_20surfaces_3',['Helpers for digital surfaces',['https://dgtal-team.github.io/doc-nightly/moduleDigitalSurfaceHelpers.html',1,'']]],
+  ['for_20displaying_202d_20digital_20objects_4',['Board2D: a stream mechanism for displaying 2D digital objects',['https://dgtal-team.github.io/doc-nightly/moduleBoard2D.html',1,'']]],
+  ['for_20displaying_203d_20dgtal_20objects_5',['Display3D: a stream mechanism for displaying 3D DGtal objects',['https://dgtal-team.github.io/doc-nightly/moduleDisplay3D.html',1,'']]],
+  ['fréchet_20shortcuts_6',['Fréchet Shortcuts',['https://dgtal-team.github.io/doc-nightly/moduleFrechetShortcut.html',1,'']]],
+  ['fraction_20continued_20fractions_7',['Irreducible fraction, continued fractions',['https://dgtal-team.github.io/doc-nightly/moduleIrreducibleFraction.html',1,'']]],
+  ['fractions_8',['Irreducible fraction, continued fractions',['https://dgtal-team.github.io/doc-nightly/moduleIrreducibleFraction.html',1,'']]],
+  ['freeman2img_9',['freeman2img',['../freeman2img.html',1,'']]],
+  ['freeman2sdp_10',['freeman2sdp',['../freeman2sdp.html',1,'']]],
+  ['from_20a_20digital_20object_11',['Tutorial: making a polyhedron from a digital object',['https://dgtal-team.github.io/doc-nightly/tutoPolyhedralisation.html',1,'']]],
+  ['from_20image_12',['Tutorial &quot;Image -&gt; Region -&gt; Grid curve -&gt;  Extracting level set boundary from Image&quot;',['https://dgtal-team.github.io/doc-nightly/tutoImageGridCurveExtraction.html',1,'']]],
+  ['from_20surfel_20functors_13',['Local digital surface estimators from surfel functors',['https://dgtal-team.github.io/doc-nightly/LocalEstimatorsFromSurfel.html',1,'']]],
+  ['functional_14',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../moduleAT.html',1,'']]],
+  ['functors_15',['Local digital surface estimators from surfel functors',['https://dgtal-team.github.io/doc-nightly/LocalEstimatorsFromSurfel.html',1,'']]]
 ];
