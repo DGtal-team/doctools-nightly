@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['test_20files_0',['DGtal Test Files',['https://dgtal-team.github.io/doc-nightly/group__Tests.html',1,'']]]
+  ['generator_20tools_0',['Generator Tools',['../group__generatorstools.html',1,'']]]
 ];

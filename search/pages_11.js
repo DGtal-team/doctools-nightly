@@ -9,7 +9,7 @@ var searchData=
   ['of_20graph_6',['Topology Concepts and Models (part I, models of graph)',['https://dgtal-team.github.io/doc-nightly/packageTopologyConcepts1.html',1,'']]],
   ['of_20one_20dimensional_20discrete_20structures_7',['Analysis of one-dimensional discrete structures',['https://dgtal-team.github.io/doc-nightly/moduleGridCurveAnalysis.html',1,'']]],
   ['of_20points_20in_20digital_20spaces_8',['Sets of points in digital spaces',['https://dgtal-team.github.io/doc-nightly/moduleDigitalSets.html',1,'']]],
-  ['ofs2off_9',['ofs2off',['../ofs2off.html',1,'']]],
+  ['ofs2off_9',['ofs2off',['../group__convertertools.html',1,'']]],
   ['on_20arbitrary_20containers_10',['Set operations on arbitrary containers',['https://dgtal-team.github.io/doc-nightly/moduleSetFunctions.html',1,'']]],
   ['one_20dimensional_20discrete_20structures_11',['Analysis of one-dimensional discrete structures',['https://dgtal-team.github.io/doc-nightly/moduleGridCurveAnalysis.html',1,'']]],
   ['opening_20of_20a_203d_20volume_20by_20the_20fast_20marching_20method_12',['Tutorial: Local morphological opening of a 3d volume by the Fast Marching Method',['https://dgtal-team.github.io/doc-nightly/tutoFMMErosion.html',1,'']]],

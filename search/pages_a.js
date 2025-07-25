@@ -2,7 +2,7 @@ var searchData=
 [
   ['generated_20shape_20grid_20curve_20length_20estimation_0',['Tutorial &quot;Generated shape -&gt; Grid curve -&gt; Length estimation&quot;',['https://dgtal-team.github.io/doc-nightly/tutoShapeGridCurveEstimator.html',1,'']]],
   ['generators_1',['Generators',['../generators.html',1,'']]],
-  ['generic3dnormalestimators_2',['generic3dNormalEstimators',['../generic3dNormalEstimators.html',1,'']]],
+  ['generic3dnormalestimators_2',['generic3dNormalEstimators',['../group__estimatortools.html',1,'']]],
   ['geometric_20predicates_3',['Implementation of geometric predicates',['https://dgtal-team.github.io/doc-nightly/moduleGeometricPredicates.html',1,'']]],
   ['geometric_20transformations_4',['Geometric transformations',['https://dgtal-team.github.io/doc-nightly/moduleGeometricTransform.html',1,'']]],
   ['geometry_20concepts_5',['Geometry Concepts',['https://dgtal-team.github.io/doc-nightly/packageGeometryConcepts.html',1,'']]],

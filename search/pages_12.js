@@ -6,7 +6,7 @@ var searchData=
   ['part_20ii_20digital_20surfaces_20surfel_20predicates_3',['Topology Concepts and Models (part II, digital surfaces, surfel predicates)',['https://dgtal-team.github.io/doc-nightly/packageTopologyConcepts2.html',1,'']]],
   ['passing_20cloning_20and_20referencing_4',['Parameter passing, cloning and referencing',['https://dgtal-team.github.io/doc-nightly/moduleCloneAndReference.html',1,'']]],
   ['patterns_20digital_20straight_20lines_20and_20subsegments_5',['Patterns, digital straight lines and subsegments',['https://dgtal-team.github.io/doc-nightly/moduleDigitalStraightness.html',1,'']]],
-  ['patterntriangulation_6',['patternTriangulation',['../patternTriangulation.html',1,'']]],
+  ['patterntriangulation_6',['patternTriangulation',['../group__visualizationtools.html',1,'']]],
   ['plane_7',['Convex hull and alpha-shape in the plane',['https://dgtal-team.github.io/doc-nightly/moduleHull2D.html',1,'']]],
   ['plane_20recognition_20algorithm_8',['Detailed explanation of COBA plane recognition algorithm',['https://dgtal-team.github.io/doc-nightly/moduleCOBANaivePlaneRecognition.html',1,'']]],
   ['plane_20recognition_20and_20plane_20width_20computation_9',['Plane recognition and plane width computation',['https://dgtal-team.github.io/doc-nightly/modulePlaneRecognition.html',1,'']]],

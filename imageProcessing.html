@@ -1,14 +1,18 @@
-<!-- HTML header for doxygen 1.8.11-->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>DGtalTools: Image processing</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,17 +24,16 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="modern-doxygen-green.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesomeDGtalTools.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr style="height: 56px;">
-  <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">DGtalTools 
-   &#160;<span id="projectnumber">1.5.beta</span>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
    </div>
   </td>
  </tr>
@@ -55,6 +58,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('imageProcessing.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -76,7 +96,6 @@ $(function() {
 </div>
 </div>
 
-</div><!-- top -->
 <div><div class="header">
   <div class="headertitle"><div class="title">Image processing</div></div>
 </div><!--header-->
@@ -85,30 +104,29 @@ $(function() {
 <h1><a class="anchor" id="imageprocessing_Modules"></a>
 Modules of package image processing</h1>
 <ul>
-<li><a class="el" href="moduleAT.html">Image restoration and inpainting with Ambrosio-Tortorelli functional</a> (Marion Foare, Jacques-Olivier Lachaud)</li>
+<li><a class="el" href="group__imageprocessingtools.html">Image restoration and inpainting with Ambrosio-Tortorelli functional</a> (Marion Foare, Jacques-Olivier Lachaud)</li>
 </ul>
 <h1><a class="anchor" id="imageprocessing_Doc"></a>
 Image restoration</h1>
 <ul>
-<li><a class="el" href="DocATu2v0.html">imageProcessing/at-u2-v0</a> : Computes a piecewise smooth approximation of an image, by optimizing the Ambrosio-Tortorelli functional (with u a 2-form and v a 0-form).</li>
-<li><a class="el" href="DocATVu2v0.html">imageProcessing/atv-u2-v0</a> : Computes a piecewise smooth approximation of an image, by optimizing a variant of the Ambrosio-Tortorelli functional (with u a 2-form and v a 0-form), which uses the Laplacian of v instead of its gradient for length approximation.</li>
-<li><a class="el" href="DocATu0v1.html">imageProcessing/at-u0-v1</a> : Computes a piecewise smooth approximation of an image, by optimizing the Ambrosio-Tortorelli functional (with u a 0-form and v a 1-form).</li>
+<li><a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u2-v0</a> : Computes a piecewise smooth approximation of an image, by optimizing the Ambrosio-Tortorelli functional (with u a 2-form and v a 0-form).</li>
+<li><a class="el" href="group__imageprocessingtools.html">imageProcessing/atv-u2-v0</a> : Computes a piecewise smooth approximation of an image, by optimizing a variant of the Ambrosio-Tortorelli functional (with u a 2-form and v a 0-form), which uses the Laplacian of v instead of its gradient for length approximation.</li>
+<li><a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u0-v1</a> : Computes a piecewise smooth approximation of an image, by optimizing the Ambrosio-Tortorelli functional (with u a 0-form and v a 1-form).</li>
 </ul>
 <center> <table class="doxtable">
 <tr>
 <td><img src="lena-370-b02.png" alt="" height="200px" class="inline"/>  </td><td><img src="lena-370-b02-a0_48000-l0_0250000-u.png" alt="" height="200px" class="inline"/>   </td></tr>
 <tr>
-<td colspan="2" align="center"><a class="el" href="DocATu2v0.html">imageProcessing/at-u2-v0</a>, <a class="el" href="DocATu0v1.html">imageProcessing/at-u0-v1</a>   </td></tr>
+<td colspan="2" align="center"><a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u2-v0</a>, <a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u0-v1</a>   </td></tr>
 </table>
 </center> </div></div><!-- contents -->
 </div><!-- PageDoc -->
-<!-- HTML footer for doxygen 1.8.11-->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Companion project associated to  <a href= "http://liris.cnrs.fr/dgtal/doc/nightly/"> DGtal </a>;
-    Generated on Mon Jul 14 2025 19:54:42 for DGtalTools by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 25 2025 22:19:19 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

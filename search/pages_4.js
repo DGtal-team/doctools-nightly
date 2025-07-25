@@ -9,7 +9,7 @@ var searchData=
   ['algorithms_20library_6',['DGtalTools - Digital Geometry Tools and Algorithms Library.',['../index.html',1,'']]],
   ['alpha_20shape_20in_20the_20plane_7',['Convex hull and alpha-shape in the plane',['https://dgtal-team.github.io/doc-nightly/moduleHull2D.html',1,'']]],
   ['alpha_20thick_20segment_20recognition_8',['Alpha-thick Segment Recognition',['https://dgtal-team.github.io/doc-nightly/moduleAlphaThickSegmentReco.html',1,'']]],
-  ['ambrosio_20tortorelli_20functional_9',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../moduleAT.html',1,'']]],
+  ['ambrosio_20tortorelli_20functional_9',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../group__imageprocessingtools.html',1,'']]],
   ['analysis_20and_20granulometry_10',['Tutorial: Volumetric analysis and Granulometry',['https://dgtal-team.github.io/doc-nightly/tutoVolDTGranulometry.html',1,'']]],
   ['analysis_20of_20one_20dimensional_20discrete_20structures_11',['Analysis of one-dimensional discrete structures',['https://dgtal-team.github.io/doc-nightly/moduleGridCurveAnalysis.html',1,'']]],
   ['analysis_20using_20separable_20processes_12',['nD Volumetric Analysis using Separable Processes',['https://dgtal-team.github.io/doc-nightly/moduleVolumetric.html',1,'']]],
@@ -22,7 +22,7 @@ var searchData=
   ['and_20domains_19',['Digital Spaces, Points, Vectors and Domains',['https://dgtal-team.github.io/doc-nightly/moduleSpacePointVectorDomain.html',1,'']]],
   ['and_20geometry_20estimation_20',['Digital Voronoi Covariance Measure and geometry estimation',['https://dgtal-team.github.io/doc-nightly/moduleVCM.html',1,'']]],
   ['and_20granulometry_21',['Tutorial: Volumetric analysis and Granulometry',['https://dgtal-team.github.io/doc-nightly/tutoVolDTGranulometry.html',1,'']]],
-  ['and_20inpainting_20with_20ambrosio_20tortorelli_20functional_22',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../moduleAT.html',1,'']]],
+  ['and_20inpainting_20with_20ambrosio_20tortorelli_20functional_22',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../group__imageprocessingtools.html',1,'']]],
   ['and_20integer_20concepts_23',['Number and Integer Concepts',['https://dgtal-team.github.io/doc-nightly/moduleNumber.html',1,'']]],
   ['and_20models_24',['Arithmetic Concepts and Models',['https://dgtal-team.github.io/doc-nightly/packageArithmeticConcepts.html',1,'']]],
   ['and_20models_20part_20i_20models_20of_20graph_25',['Topology Concepts and Models (part I, models of graph)',['https://dgtal-team.github.io/doc-nightly/packageTopologyConcepts1.html',1,'']]],
@@ -39,7 +39,7 @@ var searchData=
   ['arithmetic_20concepts_20and_20models_36',['Arithmetic Concepts and Models',['https://dgtal-team.github.io/doc-nightly/packageArithmeticConcepts.html',1,'']]],
   ['arithmetic_20package_37',['Arithmetic package',['https://dgtal-team.github.io/doc-nightly/packageArithmetic.html',1,'']]],
   ['at_20integer_20coordinates_38',['Lattice polytopes in the digital plane ZxZ (convex polygons with vertices at integer coordinates)',['https://dgtal-team.github.io/doc-nightly/moduleLatticePolytope2D.html',1,'']]],
-  ['at_20u0_20v1_39',['imageProcessing/at-u0-v1',['../DocATu0v1.html',1,'']]],
-  ['at_20u2_20v0_40',['imageProcessing/at-u2-v0',['../DocATu2v0.html',1,'']]],
-  ['atv_20u2_20v0_41',['imageProcessing/atv-u2-v0',['../DocATVu2v0.html',1,'']]]
+  ['at_20u0_20v1_39',['imageProcessing/at-u0-v1',['../group__imageprocessingtools.html',1,'']]],
+  ['at_20u2_20v0_40',['imageProcessing/at-u2-v0',['../group__imageprocessingtools.html',1,'']]],
+  ['atv_20u2_20v0_41',['imageProcessing/atv-u2-v0',['../group__imageprocessingtools.html',1,'']]]
 ];
