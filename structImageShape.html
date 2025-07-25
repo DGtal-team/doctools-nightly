@@ -162,7 +162,7 @@ template&lt;typename ImageType &gt; </div>
 template&lt;typename ImageType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef ImageType::Point <a class="el" href="structImageShape.html">ImageShape</a>&lt; ImageType &gt;<a class="elRef" href="https://dgtal-team.github.io/doc-nightly/classDGtal_1_1IteratorCompletionTraits_3_01ArrayImageAdapter_3_01TArrayIterator_00_01TDomain_01_4_01_4_1_1DistanceFunctor.html#af185de5027177db2d1b4a0b775be8c3f">::Point</a></td>
+          <td class="memname">typedef ImageType::Point <a class="el" href="structImageShape.html">ImageShape</a>&lt; ImageType &gt;::Point</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,11 +267,10 @@ template&lt;typename ImageType &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="shape_8h_source.html#l00115">115</a> of file <a class="el" href="shape_8h_source.html">shape.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  116</span>    {</div>
-<div class="line"><span class="lineno">  117</span>        <span class="keyword">const</span> <a class="code hl_typedefRef" href="https://dgtal-team.github.io/doc-nightly/classDGtal_1_1IteratorCompletionTraits_3_01ArrayImageAdapter_3_01TArrayIterator_00_01TDomain_01_4_01_4_1_1DistanceFunctor.html#af185de5027177db2d1b4a0b775be8c3f">Point</a> point = point_+<a class="code hl_variable" href="structImageShape.html#aef0e0db27f9f47bc7a989b8ab237d2e2">shift</a>;</div>
+<div class="line"><span class="lineno">  117</span>        <span class="keyword">const</span> Point point = point_+<a class="code hl_variable" href="structImageShape.html#aef0e0db27f9f47bc7a989b8ab237d2e2">shift</a>;</div>
 <div class="line"><span class="lineno">  118</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="structImageShape.html#a0ba30fe80461f6c7fdfb47763269f0a7">image</a>-&gt;domain().isInside(point)) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> (*<a class="code hl_variable" href="structImageShape.html#a0ba30fe80461f6c7fdfb47763269f0a7">image</a>)(point) &gt; 0;</div>
 <div class="line"><span class="lineno">  120</span>    }</div>
-<div class="ttc" id="aclassDGtal_1_1IteratorCompletionTraits_3_01ArrayImageAdapter_3_01TArrayIterator_00_01TDomain_01_4_01_4_1_1DistanceFunctor_html_af185de5027177db2d1b4a0b775be8c3f"><div class="ttname"><a href="https://dgtal-team.github.io/doc-nightly/classDGtal_1_1IteratorCompletionTraits_3_01ArrayImageAdapter_3_01TArrayIterator_00_01TDomain_01_4_01_4_1_1DistanceFunctor.html#af185de5027177db2d1b4a0b775be8c3f">Point</a></div><div class="ttdeci">typename Self::Point Point</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="shape_8h_source.html#l00122">ImageShape&lt; ImageType &gt;::image</a>, and <a class="el" href="shape_8h_source.html#l00123">ImageShape&lt; ImageType &gt;::shift</a>.</p>
 
@@ -327,7 +326,7 @@ template&lt;typename ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structImageShape.html">ImageShape</a></li>
-    <li class="footer">Generated on Fri Jul 25 2025 23:36:32 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Jul 25 2025 23:53:41 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

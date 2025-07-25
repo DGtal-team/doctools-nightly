@@ -1,18 +1,15 @@
 var searchData=
 [
-  ['height_0',['height',['https://dgtal-team.github.io/doc-nightly/structLibBoard_1_1Rect.html#a51c1eddb12ae0a6848734c887d3869fc',1,'LibBoard::Rect::height'],['https://dgtal-team.github.io/doc-nightly/structDGtal_1_1ChordNaivePlaneComputer_1_1State.html#af39bf045ee5c7940c3cf845384c2bce0',1,'DGtal::ChordNaivePlaneComputer::State::height']]],
-  ['helvetica_1',['Helvetica',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3a297d33f587c8b5b5e7f326f9675592bc',1,'LibBoard::Fonts']]],
-  ['helveticabold_2',['HelveticaBold',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3a97741f6bbc7406a16a2f451b775a90c0',1,'LibBoard::Fonts']]],
-  ['helveticaboldoblique_3',['HelveticaBoldOblique',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3ac73a7b700497f588eba0b2832962367d',1,'LibBoard::Fonts']]],
-  ['helveticanarrow_4',['HelveticaNarrow',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3a4424f60f58811b1a02a6defddaf0108f',1,'LibBoard::Fonts']]],
-  ['helveticanarrowbold_5',['HelveticaNarrowBold',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3ae6910a04fecf7eb2acacd67f5cdca831',1,'LibBoard::Fonts']]],
-  ['helveticanarrowboldoblique_6',['HelveticaNarrowBoldOblique',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3a928b45abd6c58949e109c4e4aebfb4f1',1,'LibBoard::Fonts']]],
-  ['helveticanarrowoblique_7',['HelveticaNarrowOblique',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3aed33367c067d894b80df17cf77c8f31a',1,'LibBoard::Fonts']]],
-  ['helveticaoblique_8',['HelveticaOblique',['https://dgtal-team.github.io/doc-nightly/namespaceLibBoard_1_1Fonts.html#aa625464f813a8ce483957dd5cbdce3a3a6976891d33424baf62d364ba3c36394f',1,'LibBoard::Fonts']]],
-  ['high_5fbel_5fds_9',['HIGH_BEL_DS',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#a0f37e197740e9d7742426109610c513aadcca3a30244180b4238a80ae3a06e01d',1,'DGtal']]],
-  ['high_5fbel_5fi_10',['HIGH_BEL_I',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#afbda75b83fdb9094d0e38931838c8d6aa3417447f6aa436ccbf37e0c359adac12',1,'DGtal']]],
-  ['high_5fiter_5fds_11',['HIGH_ITER_DS',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#abae5017e6f3a3d5e0c4debd8142e8ccca0f85b8033e1532f5c4a0ff3d59a187bc',1,'DGtal']]],
-  ['high_5fiter_5fimage_12',['HIGH_ITER_IMAGE',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#a7f3384cac6dea91b4d46cc1421854ddaacf7975d858b926cba1cc047885d1765c',1,'DGtal']]],
-  ['high_5fvar_5fds_13',['HIGH_VAR_DS',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#ae37267b68e31ee8f7531488f7e88426aabef0d75c93891808eaa54c78aa08484a',1,'DGtal']]],
-  ['horizontalverticalthickness_14',['HorizontalVerticalThickness',['https://dgtal-team.github.io/doc-nightly/namespaceDGtal_1_1functions_1_1Hull2D.html#ade3b11c94c4d3736bb8efc7abcc58735a602f83cef2331731bf233abeaf2c0ff6',1,'DGtal::functions::Hull2D']]]
+  ['l1_0',['L1',['../structDGtal_1_1ATu0v1.html#a812721bee50861087f148aeb0fd210f7',1,'DGtal::ATu0v1']]],
+  ['l_5f1_1',['l_1',['../structDGtal_1_1ATVu2v0.html#a72385bb97285c212d5e0be93a58ede7f',1,'DGtal::ATVu2v0']]],
+  ['l_5f1_5fover_5f4_2',['l_1_over_4',['../structDGtal_1_1ATu0v1.html#af4270c210d204bd5f0ec248370c9f960',1,'DGtal::ATu0v1::l_1_over_4'],['../structDGtal_1_1ATu2v0.html#a7f013a03fd166425427e38aa636c410e',1,'DGtal::ATu2v0::l_1_over_4']]],
+  ['l_5f1_5fover_5f4e_3',['l_1_over_4e',['../structDGtal_1_1ATu0v1.html#a05f6c405f6413423ed1d9f366fa9ec6d',1,'DGtal::ATu0v1::l_1_over_4e'],['../structDGtal_1_1ATu2v0.html#a088061149fbc1da4a31ff3ac0bb458a8',1,'DGtal::ATu2v0::l_1_over_4e']]],
+  ['l_5f1_5fover_5f4e_5fid0_4',['l_1_over_4e_Id0',['../structDGtal_1_1ATu2v0.html#a39a8196c76de8c57ec1401705c3a64fa',1,'DGtal::ATu2v0']]],
+  ['l_5fl1_5',['l_L1',['../structDGtal_1_1ATu0v1.html#ac6a60f054046be812a1f9d25fa9a9481',1,'DGtal::ATu0v1']]],
+  ['l_5fover_5fe_5f1_6',['l_over_e_1',['../structDGtal_1_1ATVu2v0.html#a99b258cd485da10edbc1d64d3d413e31',1,'DGtal::ATVu2v0']]],
+  ['l_5fover_5fe_5fid0_7',['l_over_e_Id0',['../structDGtal_1_1ATVu2v0.html#ac76a2e6b85c48e85e43ee37c480c79c7',1,'DGtal::ATVu2v0']]],
+  ['lambda_8',['lambda',['../structDGtal_1_1ATu0v1.html#ac380100863d00ea00aef872de59ae278',1,'DGtal::ATu0v1::lambda'],['../structDGtal_1_1ATu2v0.html#a365d779e3af7dce4fd81261b48ecc7ce',1,'DGtal::ATu2v0::lambda'],['../structDGtal_1_1ATVu2v0.html#acae6b9c24e1591e3d36616c271aa6920',1,'DGtal::ATVu2v0::lambda']]],
+  ['left_5fv0_9',['left_v0',['../structDGtal_1_1ATu2v0.html#a7c25c0b99f4fa0a42769bc7b1c23fa7a',1,'DGtal::ATu2v0::left_V0'],['../structDGtal_1_1ATVu2v0.html#adc7d656ec841b9bf83fe4b293696544f',1,'DGtal::ATVu2v0::left_V0']]],
+  ['left_5fv1_10',['left_V1',['../structDGtal_1_1ATu0v1.html#a0143ce5681747cfabb0e3f0806e32fe9',1,'DGtal::ATu0v1']]],
+  ['length_11',['length',['../structCapsuleShape.html#a22da50205fe76101aea30b74d430584c',1,'CapsuleShape']]]
 ];

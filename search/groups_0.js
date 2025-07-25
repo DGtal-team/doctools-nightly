@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['archetypes_0',['DGtal Archetypes',['https://dgtal-team.github.io/doc-nightly/group__Archetypes.html',1,'']]]
+  ['converter_20tools_0',['Converter Tools',['../group__convertertools.html',1,'']]]
 ];

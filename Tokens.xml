@@ -112,6 +112,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DGtal</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>DGtal</Scope>
+    </TokenIdentifier>
+    <Path>namespaceDGtal.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DGtal::functions</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>DGtal::functions</Scope>
+    </TokenIdentifier>
+    <Path>namespaceDGtal_1_1functions.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DGtal::functions::dec</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -552,56 +570,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Calculus</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>DGtal::DECImage2D</Scope>
-    </TokenIdentifier>
-    <Path>structDGtal_1_1DECImage2D.html</Path>
-    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Calculus</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>DGtal::ATu0v1</Scope>
-    </TokenIdentifier>
-    <Path>structDGtal_1_1ATu0v1.html</Path>
-    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Calculus</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>DGtal::ATu2v0</Scope>
-    </TokenIdentifier>
-    <Path>structDGtal_1_1ATu2v0.html</Path>
-    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Calculus</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>DGtal::ATVu2v0</Scope>
-    </TokenIdentifier>
-    <Path>structDGtal_1_1ATVu2v0.html</Path>
-    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Calculus</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>tdef</Type>
-      <Scope>DGtal::DECImage2D&lt; TKSpace, EigenLinearAlgebraBackend &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structDGtal_1_1DECImage2D.html</Path>
-    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>calculus</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -649,6 +617,56 @@
     </TokenIdentifier>
     <Path>structDGtal_1_1DECImage2D.html</Path>
     <Anchor>a3041eccbb9dfa079e07e2c78b3dad84f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Calculus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>DGtal::DECImage2D</Scope>
+    </TokenIdentifier>
+    <Path>structDGtal_1_1DECImage2D.html</Path>
+    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Calculus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>DGtal::ATu0v1</Scope>
+    </TokenIdentifier>
+    <Path>structDGtal_1_1ATu0v1.html</Path>
+    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Calculus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>DGtal::ATu2v0</Scope>
+    </TokenIdentifier>
+    <Path>structDGtal_1_1ATu2v0.html</Path>
+    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Calculus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>DGtal::ATVu2v0</Scope>
+    </TokenIdentifier>
+    <Path>structDGtal_1_1ATVu2v0.html</Path>
+    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Calculus</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>DGtal::DECImage2D&lt; TKSpace, EigenLinearAlgebraBackend &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structDGtal_1_1DECImage2D.html</Path>
+    <Anchor>abb23cd33e75630a61d6d8d190ad68830</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4929,6 +4947,39 @@
     <Path>namespaceDGtal_1_1functions_1_1dec.html</Path>
     <Anchor>a0e6468a2500539a58154ad4306ee5905</Anchor>
     <DeclaredIn>DECImageHelpers.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>DGtal</Scope>
+    </TokenIdentifier>
+    <Path>namespaceDGtal.html</Path>
+    <Anchor>a0c6c8bff42b499de8d605c8bfba25993</Anchor>
+    <DeclaredIn>ATu0v1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>DGtal</Scope>
+    </TokenIdentifier>
+    <Path>namespaceDGtal.html</Path>
+    <Anchor>a2fc718c2a498dfa02aa734c844690702</Anchor>
+    <DeclaredIn>ATu2v0.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>DGtal</Scope>
+    </TokenIdentifier>
+    <Path>namespaceDGtal.html</Path>
+    <Anchor>a919713856d602fecd06c294d03a73587</Anchor>
+    <DeclaredIn>ATVu2v0.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

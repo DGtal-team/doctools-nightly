@@ -653,14 +653,6 @@
             <Anchor>volSurfaceRegularization</Anchor>
            </Node>
           </Subnodes>
-        <Subnodes>
-          </Subnodes>
-        <Subnodes>
-          </Subnodes>
-        <Subnodes>
-          </Subnodes>
-        <Subnodes>
-          </Subnodes>
          </Node>
         </Subnodes>
        </Node>
@@ -672,7 +664,13 @@
           <Name>Namespace List</Name>
           <Path>namespaces.html</Path>
         <Subnodes>
+           <Node>
+            <Name>DGtal</Name>
+            <Path>namespaceDGtal.html</Path>
           <Subnodes>
+             <Node>
+              <Name>functions</Name>
+              <Path>namespaceDGtal_1_1functions.html</Path>
             <Subnodes>
                <Node>
                 <Name>dec</Name>
@@ -766,6 +764,7 @@
                 </Subnodes>
                </Node>
               </Subnodes>
+             </Node>
              <Node>
               <Name>ATu0v1</Name>
               <Path>structDGtal_1_1ATu0v1.html</Path>
@@ -2535,7 +2534,23 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>operator&lt;&lt;</Name>
+              <Path>namespaceDGtal.html</Path>
+              <Anchor>a0c6c8bff42b499de8d605c8bfba25993</Anchor>
+             </Node>
+             <Node>
+              <Name>operator&lt;&lt;</Name>
+              <Path>namespaceDGtal.html</Path>
+              <Anchor>a2fc718c2a498dfa02aa734c844690702</Anchor>
+             </Node>
+             <Node>
+              <Name>operator&lt;&lt;</Name>
+              <Path>namespaceDGtal.html</Path>
+              <Anchor>a919713856d602fecd06c294d03a73587</Anchor>
+             </Node>
             </Subnodes>
+           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -2564,7 +2579,7 @@
         <Subnodes>
            <Node>
             <Name>DGtal</Name>
-            <Path></Path>
+            <Path>namespaceDGtal.html</Path>
           <Subnodes>
              <Node>
               <Name>ATu0v1</Name>

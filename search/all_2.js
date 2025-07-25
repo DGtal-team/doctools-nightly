@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['50_20lines_0',['Tutorial &quot;Image -&gt; Region -&gt; Volume -&gt;  3dVolViewer : a simple 3D volume viewer in less than 50 lines&quot;',['https://dgtal-team.github.io/doc-nightly/tutoImageGridVolume3dVolViewer.html',1,'']]]
+  ['a_20variant_20for_20at_20model_0',['A variant for AT model',['../group__imageprocessingtools.html#AT5',1,'']]],
+  ['addinput_1',['addinput',['../structDGtal_1_1ATu0v1.html#aa5f3c84411fb3f11d4178a98fc9df855',1,'DGtal::ATu0v1::addInput()'],['../structDGtal_1_1ATu2v0.html#a2b9047e1591dceb09b01a683e2643b96',1,'DGtal::ATu2v0::addInput()'],['../structDGtal_1_1ATVu2v0.html#ae0e0a292d3a39847646e864a1ee4cf5d',1,'DGtal::ATVu2v0::addInput()']]],
+  ['algorithm_2',['Algorithm',['../group__imageprocessingtools.html#AT2_4',1,'']]],
+  ['algorithms_20library_3',['DGtalTools - Digital Geometry Tools and Algorithms Library.',['../index.html',1,'']]],
+  ['align_4',['align',['../structApproxParams.html#a9be44a425b4cfa296914e88abfd9ea3c',1,'ApproxParams']]],
+  ['alpha_5',['alpha',['../structDGtal_1_1ATu0v1.html#ad1e2a5b7a13defe9afedc12788564dbc',1,'DGtal::ATu0v1::alpha'],['../structDGtal_1_1ATu2v0.html#aa9130c31c3b85f21bd366a386f8b94f1',1,'DGtal::ATu2v0::alpha'],['../structDGtal_1_1ATVu2v0.html#a74c4bce906d78167cde59c5eda3ba11e',1,'DGtal::ATVu2v0::alpha'],['../group__imageprocessingtools.html#AT3_3',1,'Influence of parameter alpha']]],
+  ['alpha_5fg0_6',['alpha_g0',['../structDGtal_1_1ATu0v1.html#abd2868d97704be3dada1b43fff737b07',1,'DGtal::ATu0v1']]],
+  ['alpha_5fg2_7',['alpha_g2',['../structDGtal_1_1ATu2v0.html#aca983a126a837ebacac2169ab80d1396',1,'DGtal::ATu2v0::alpha_g2'],['../structDGtal_1_1ATVu2v0.html#a5092e7796d8fc276268059066bb6b725',1,'DGtal::ATVu2v0::alpha_g2']]],
+  ['alpha_5fid0_8',['alpha_Id0',['../structDGtal_1_1ATu0v1.html#a4043afb1f63933ad54e7326668f4e8de',1,'DGtal::ATu0v1']]],
+  ['alpha_5fid2_9',['alpha_id2',['../structDGtal_1_1ATu2v0.html#ae0e82804b5e1a87aabe9b1e5e13ac24d',1,'DGtal::ATu2v0::alpha_Id2'],['../structDGtal_1_1ATVu2v0.html#a2195904ac2ceb5a1450dd99754829921',1,'DGtal::ATVu2v0::alpha_Id2']]],
+  ['ambrosio_20tortorelli_20functional_10',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../group__imageprocessingtools.html',1,'']]],
+  ['ambrosio_20tortorelli_20functional_20br_11',['The Ambrosio-Tortorelli functional  &lt;br&gt;',['../group__imageprocessingtools.html#AT1',1,'']]],
+  ['and_20algorithms_20library_12',['DGtalTools - Digital Geometry Tools and Algorithms Library.',['../index.html',1,'']]],
+  ['and_20at20_13',['and at20',['../group__imageprocessingtools.html#AT2_2',1,'Formulations AT01 and AT20'],['../group__imageprocessingtools.html#AT2_3',1,'Solutions to AT01 and AT20']]],
+  ['and_20discontinuity_20detections_14',['Some examples of restoration and discontinuity detections',['../group__imageprocessingtools.html#AT3_1',1,'']]],
+  ['and_20inpainting_20with_20ambrosio_20tortorelli_20functional_15',['Image restoration and inpainting with Ambrosio-Tortorelli functional',['../group__imageprocessingtools.html',1,'']]],
+  ['approximation_20of_20images_16',['Piecewise smooth approximation of images',['../group__imageprocessingtools.html#AT3',1,'']]],
+  ['approxparams_17',['ApproxParams',['../structApproxParams.html',1,'']]],
+  ['at_20model_18',['A variant for AT model',['../group__imageprocessingtools.html#AT5',1,'']]],
+  ['at_20models_20for_20inpainting_19',['Use of AT models for inpainting',['../group__imageprocessingtools.html#AT4',1,'']]],
+  ['at_20u0_20v1_20',['imageProcessing/at-u0-v1',['../group__imageprocessingtools.html',1,'']]],
+  ['at_20u2_20v0_21',['imageProcessing/at-u2-v0',['../group__imageprocessingtools.html',1,'']]],
+  ['at_20with_20discrete_20calculus_22',['Discretization of AT with discrete calculus',['../group__imageprocessingtools.html#AT2',1,'']]],
+  ['at01_20and_20at20_23',['at01 and at20',['../group__imageprocessingtools.html#AT2_2',1,'Formulations AT01 and AT20'],['../group__imageprocessingtools.html#AT2_3',1,'Solutions to AT01 and AT20']]],
+  ['at20_24',['at20',['../group__imageprocessingtools.html#AT2_2',1,'Formulations AT01 and AT20'],['../group__imageprocessingtools.html#AT2_3',1,'Solutions to AT01 and AT20']]],
+  ['atu0v1_25',['atu0v1',['../structDGtal_1_1ATu0v1.html',1,'DGtal::ATu0v1&lt; TKSpace, TLinearAlgebra &gt;'],['../structDGtal_1_1ATu0v1.html#a2b79ee89abe1c90c16bfe744929248e3',1,'DGtal::ATu0v1::ATu0v1(ATu0v1 &amp;&amp;other)=delete'],['../structDGtal_1_1ATu0v1.html#aa8d04d2e794ff01a500da84c0daa5e94',1,'DGtal::ATu0v1::ATu0v1(const ATu0v1 &amp;other)=delete'],['../structDGtal_1_1ATu0v1.html#a989f1dea08b5db81654e9f912b81dc5a',1,'DGtal::ATu0v1::ATu0v1(int _verbose=1)']]],
+  ['atu2v0_26',['atu2v0',['../structDGtal_1_1ATu2v0.html#a615cc4bcac9a8366fe4257928b22eb57',1,'DGtal::ATu2v0::ATu2v0(ATu2v0 &amp;&amp;other)=delete'],['../structDGtal_1_1ATu2v0.html#a252bf08ed21ab124c860034da1358fe1',1,'DGtal::ATu2v0::ATu2v0(const ATu2v0 &amp;other)=delete'],['../structDGtal_1_1ATu2v0.html#a86e5ad1b2e69e02375651a6500a282cf',1,'DGtal::ATu2v0::ATu2v0(int _verbose=1)'],['../structDGtal_1_1ATu2v0.html',1,'DGtal::ATu2v0&lt; TKSpace, TLinearAlgebra &gt;']]],
+  ['atv_20u2_20v0_27',['imageProcessing/atv-u2-v0',['../group__imageprocessingtools.html',1,'']]],
+  ['atvu2v0_28',['atvu2v0',['../structDGtal_1_1ATVu2v0.html#a92d80142c3a425d323e519a077a282f4',1,'DGtal::ATVu2v0::ATVu2v0(ATVu2v0 &amp;&amp;other)=delete'],['../structDGtal_1_1ATVu2v0.html#a53be2140ab40061bff0acf4846b246b1',1,'DGtal::ATVu2v0::ATVu2v0(const ATVu2v0 &amp;other)=delete'],['../structDGtal_1_1ATVu2v0.html#a54c88943d6f575f17603e6c6f3c2ba2e',1,'DGtal::ATVu2v0::ATVu2v0(int _verbose=1)'],['../structDGtal_1_1ATVu2v0.html',1,'DGtal::ATVu2v0&lt; TKSpace, TLinearAlgebra &gt;']]]
 ];

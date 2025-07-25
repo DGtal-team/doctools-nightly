@@ -167,12 +167,11 @@ Resulting visualization.</div></div>
 <div class="line">  -R,--big-radius FLOAT=10              the radius parameter R in the VCM estimator.</div>
 <div class="line">  -r,--small-radius FLOAT=3             the radius parameter r in the VCM estimator.</div>
 <div class="line">  -m,--method TEXT:{VCM,L-MST}=VCM      the method of tangent computation: VCM (<span class="keywordflow">default</span>), L-MST.</div>
-<div class="line">  -a,--axes TEXT:{<a class="code hl_variableRef" href="https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#a9f6cc75dc44e45506a66cd233e0deb41a7671a5416d92f37137f9999ca23dd65e">ON</a>,OFF}=OFF           show main axes - prints list of axes <span class="keywordflow">for each</span> point and color points color = (<span class="keywordflow">if</span> X =&gt; 255, <span class="keywordflow">if</span> Y =&gt; 255, <span class="keywordflow">if</span> Z =&gt; 255)</div>
+<div class="line">  -a,--axes TEXT:{ON,OFF}=OFF           show main axes - prints list of axes <span class="keywordflow">for each</span> point and color points color = (<span class="keywordflow">if</span> X =&gt; 255, <span class="keywordflow">if</span> Y =&gt; 255, <span class="keywordflow">if</span> Z =&gt; 255)</div>
 <div class="line">  -o,--output TEXT=3d-curve-tangent-estimations</div>
 <div class="line">                                        the basename of the output text file which will contain points and tangent vectors: (x y z tx ty tz) per line</div>
-<div class="ttc" id="anamespaceDGtal_html_a9f6cc75dc44e45506a66cd233e0deb41a7671a5416d92f37137f9999ca23dd65e"><div class="ttname"><a href="https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html#a9f6cc75dc44e45506a66cd233e0deb41a7671a5416d92f37137f9999ca23dd65e">DGtal::ON</a></div><div class="ttdeci">ON</div></div>
-</div><!-- fragment --><b>Example:</b> This command line show an example of tangent estimation with the VCM estimator. </p><div class="fragment"><div class="line">3dCurveTangentEstimator  ${<a class="code hl_namespaceRef" href="https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html">DGtal</a>}/examples/samples/sinus.dat -V ON -c -R 20 -r 3 -T 6</div>
-<div class="ttc" id="anamespaceDGtal_html"><div class="ttname"><a href="https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html">DGtal</a></div></div>
+</div><!-- fragment --><b>Example:</b> This command line show an example of tangent estimation with the VCM estimator. </p><div class="fragment"><div class="line">3dCurveTangentEstimator  ${<a class="code hl_namespace" href="namespaceDGtal.html">DGtal</a>}/examples/samples/sinus.dat -V ON -c -R 20 -r 3 -T 6</div>
+<div class="ttc" id="anamespaceDGtal_html"><div class="ttname"><a href="namespaceDGtal.html">DGtal</a></div><div class="ttdef"><b>Definition</b> <a href="ATu0v1_8h_source.html#l00056">ATu0v1.h:57</a></div></div>
 </div><!-- fragment -->You should obtain such a result: </p><div class="image">
 <img src="res3dCurveTangentEstimator.png" alt=""/>
 <div class="caption">
@@ -265,7 +264,7 @@ Resulting tangent vectors (red) obtained with the VCM estimator.</div></div>
 <div class="line">--gridStepIncrement FLOAT=1           Grid step increment </div>
 <div class="line">--gridStepFinal FLOAT=1               Grid step <span class="keyword">final</span></div>
 <div class="line">-c,--curvatureCutOff FLOAT=10         set the curvature limits to better display</div>
-</div><!-- fragment --><b>Example:</b> </p><div class="fragment"><div class="line">$ curvatureScaleSpaceBCC ${<a class="code hl_namespaceRef" href="https://dgtal-team.github.io/doc-nightly/namespaceDGtal.html">DGtal</a>}/examples/samples/contourS.fc --gridStepInit 0.001 --gridStepIncrement  0.0005 --gridStepFinal 0.1 -o cssResu.ppm</div>
+</div><!-- fragment --><b>Example:</b> </p><div class="fragment"><div class="line">$ curvatureScaleSpaceBCC ${<a class="code hl_namespace" href="namespaceDGtal.html">DGtal</a>}/examples/samples/contourS.fc --gridStepInit 0.001 --gridStepIncrement  0.0005 --gridStepFinal 0.1 -o cssResu.ppm</div>
 </div><!-- fragment -->You should obtain such a result: </p><div class="image">
 <img src="resCurvatureScaleSpaceBCC.png" alt=""/>
 <div class="caption">
@@ -510,7 +509,7 @@ Smooth quadrangulated complex.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 25 2025 23:36:32 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Jul 25 2025 23:53:41 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
