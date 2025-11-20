@@ -280,34 +280,33 @@ resulting heightmap visualisation.</div></div>
 </div>
 
 <h3><a id="Doc3dImageViewer" name="Doc3dImageViewer"></a>3dImageViewer</h3><div class="textblock"><b>Usage:</b> 3dImageViewer [OPTIONS] 1 [s]<b>Allowed</b> <b>options</b> <b>are</b> :<div class="fragment"><div class="line">Positionals:</div>
-<div class="line">  1 TEXT:FILE REQUIRED                  vol file (.vol, .longvol .p3d, .pgm3d and <span class="keywordflow">if</span> DGTAL_WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div>
-<div class="line">  s TEXT                                display a set of discrete points (.sdp)</div>
+<div class="line">1 TEXT:FILE REQUIRED                  vol file (.vol, .longvol .p3d, .pgm3d and <span class="keywordflow">if</span> DGTAL_WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div>
+<div class="line">s TEXT                                display a set of discrete points (.sdp)</div>
 <div class="line"> </div>
 <div class="line">Options:</div>
-<div class="line">  -h,--help                             Print this help message and exit</div>
-<div class="line">  -i,--input TEXT:FILE REQUIRED         vol file (.vol, .longvol .p3d, .pgm3d and if DGTAL_WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div>
-<div class="line">  --grid                                draw slice images using grid mode.</div>
-<div class="line">  --intergrid                           draw slice images using inter grid mode.</div>
-<div class="line">  --emptyMode                           remove the default boundingbox display.</div>
-<div class="line">  --thresholdImage                      threshold the image to define binary shape</div>
-<div class="line">  --thresholdMin INT=0                  threshold min to define binary shape</div>
-<div class="line">  --thresholdMax INT=255                threshold maw to define binary shape</div>
-<div class="line">  --displaySDP TEXT                     display a set of discrete points (.sdp)</div>
-<div class="line">  --SDPindex UINT x 3                   specify the sdp index.</div>
-<div class="line">  --SDPball FLOAT=0                     use balls to display a set of discrete points (if not set to 0 and used with displaySDP option).</div>
-<div class="line">  --displayMesh TEXT                    display a Mesh given in OFF or OFS format.</div>
-<div class="line">  --displayDigitalSurface               display the digital surface instead of display all the set of voxels (used with thresholdImage or displaySDP options)</div>
-<div class="line">  --colorizeCC                          colorize each Connected Components of the surface displayed by displayDigitalSurface option.</div>
-<div class="line">  -c,--colorSDP UINT x 4                set the color  discrete points: r g b a</div>
-<div class="line">  --colorMesh UINT x 4                  set the color of Mesh (given from displayMesh option) : r g b a</div>
-<div class="line">  -x,--scaleX FLOAT=1                   set the scale value in the X direction</div>
-<div class="line">  -y,--scaleY FLOAT=1                   set the scale value in the Y direction</div>
-<div class="line">  -z,--scaleZ FLOAT=1                   set the scale value in the Z direction</div>
-<div class="line">  --rescaleInputMin INT=0               min value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div>
-<div class="line">  --rescaleInputMax INT=255             max value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div>
-<div class="line">  -t,--transparency UINT=?              change the default transparency</div>
-</div><!-- fragment --><b>Example:</b> With the image display you can also threshold the image and display a set of voxel: <br  />
- </p><div class="fragment"><div class="line">3dImageViewer $DGtal/examples/samples/lobster.vol --thresholdImage -m 180</div>
+<div class="line">-h,--help                             Print this help message and exit</div>
+<div class="line">-i,--input TEXT:FILE REQUIRED         vol file (.vol, .longvol .p3d, .pgm3d and if DGTAL_WITH_ITK is selected: dicom, dcm, mha, mhd). For longvol, dicom, dcm, mha or mhd formats, the input values are linearly scaled between 0 and 255.</div>
+<div class="line">--grid                                draw slice images using grid mode.</div>
+<div class="line">--intergrid                           draw slice images using inter grid mode.</div>
+<div class="line">--emptyMode                           remove the default boundingbox display.</div>
+<div class="line">--thresholdImage                      threshold the image to define binary shape</div>
+<div class="line">--thresholdMin INT=0                  threshold min to define binary shape</div>
+<div class="line">--thresholdMax INT=255                threshold maw to define binary shape</div>
+<div class="line">--displaySDP TEXT                     display a set of discrete points (.sdp)</div>
+<div class="line">--SDPindex UINT x 3                   specify the sdp index.</div>
+<div class="line">--SDPball FLOAT=0                     use balls to display a set of discrete points (if not set to 0 and used with displaySDP option).</div>
+<div class="line">--displayMesh TEXT                    display a Mesh given in OFF or OFS format.</div>
+<div class="line">--displayDigitalSurface               display the digital surface instead of display all the set of voxels (used with thresholdImage or displaySDP options)</div>
+<div class="line">--colorizeCC                          colorize each Connected Components of the surface displayed by displayDigitalSurface option.</div>
+<div class="line">-c,--colorSDP UINT x 4                set the color  discrete points: r g b a</div>
+<div class="line">--colorMesh UINT x 4                  set the color of Mesh (given from displayMesh option) : r g b a</div>
+<div class="line">-x,--scaleX FLOAT=1                   set the scale value in the X direction</div>
+<div class="line">-y,--scaleY FLOAT=1                   set the scale value in the Y direction</div>
+<div class="line">-z,--scaleZ FLOAT=1                   set the scale value in the Z direction</div>
+<div class="line">--rescaleInputMin INT=0               min value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div>
+<div class="line">--rescaleInputMax INT=255             max value used to rescale the input intensity (to avoid basic cast into 8  bits image).</div>
+<div class="line">-t,--transparency UINT=?              change the default transparency</div>
+</div><!-- fragment --><b>Example:</b> With the image display you can also threshold the image and display a set of voxel: </p><div class="fragment"><div class="line">3dImageViewer $DGtal/examples/samples/lobster.vol --thresholdImage -m 180</div>
 </div><!-- fragment -->You should obtain such a result:<div class="image">
 <img src="res3dImageViewer.png" alt=""/>
 <div class="caption">
@@ -591,7 +590,7 @@ Volumetric visualization using polyscope slice planes.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 21 2025 08:35:34 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Nov 20 2025 13:22:55 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
