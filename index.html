@@ -33,7 +33,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.1.0</span>
    </div>
   </td>
  </tr>
@@ -108,79 +108,84 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>Provide useful tools of digital image related algorithms (extraction of connected components, digital contour/surface extraction, simple visualization tools ... etc).</li>
 </ul>
 <p>The source code of the tools can also be used to non <a class="el" href="namespaceDGtal.html">DGtal</a> familiar user to show how to include the <a class="el" href="namespaceDGtal.html">DGtal</a> library framework directly in their own source code (in complement of <a class="el" href="namespaceDGtal.html">DGtal</a> tutorial <a href="https://dgtal-team.github.io/doc-nightly/packageTutorials.html">https://dgtal-team.github.io/doc-nightly/packageTutorials.html</a>).</p>
-<h1><a class="anchor" id="Organisation"></a>
+<h1><a class="anchor" id="OrgSection"></a>
 Organisation</h1>
-<p>Actually the DGTalTools project is organized as follows:</p>
+<p>The DGTalTools project is structured around the following categories:</p>
 <ul>
 <li><a class="el" href="converters.html">Converters</a></li>
 <li><a class="el" href="estimators_Doc.html">Estimators</a></li>
 <li><a class="el" href="generators.html">Generators</a></li>
-<li><a class="el" href="visualization.html">Visualization</a></li>
+<li><a class="el" href="visualization_Doc.html">Visualization</a></li>
 <li><a class="el" href="volumetric_Doc.html">Volumetric</a></li>
-<li><p class="startli"><a class="el" href="imageProcessing.html#imageprocessing_Doc">Image Processing</a></p>
+<li><a class="el" href="imageProcessing.html#imageprocessing_Doc">Image Processing</a></li>
+</ul>
+<h1><a class="anchor" id="ExampleTools"></a>
+Tool Preview</h1>
+<p>The images below provide an overview of representative tools available in each category.</p>
 <center> <table class="doxtable">
 <tr bgcolor="#FAFFFA">
 <td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="converters.html">Converters</a> :   </td></tr>
 <tr>
-<td><img src="resVol2sdp.png" alt="" height="150px" class="inline"/>  </td><td><img src="resMesh2heightfield.png" alt="" height="150px" class="inline"/> </td><td><img src="resVolAddnoise.png" alt="" height="150px" class="inline"/>  </td></tr>
+<td align="center"><img src="resVol2sdp.png" alt="" height="150px" class="inline"/>  </td><td align="center"><img src="resMesh2heightfield.png" alt="" height="150px" class="inline"/> </td><td align="center"><img src="resHeightfield2shading.png" alt="" height="150px" class="inline"/>  </td></tr>
 <tr>
-<td align="center"><a class="el" href="group__convertertools.html">vol2sdp</a>  </td><td align="center"><a class="el" href="group__convertertools.html">mesh2heightfield</a>  </td><td align="center"><p class="starttd"><a class="el" href="group__volumetrictools.html">volAddNoise</a> </p>
-<p class="endtd"></p>
-</td></tr>
+<td align="center"><a href="group__convertertools.html#vol2sdp">vol2sdp</a>  </td><td align="center"><a href="group__convertertools.html#mesh2heightfield">mesh2heightfield</a>  </td><td align="center"><a href="group__convertertools.html#heightfield2shading">heightfield2shading</a>  </td></tr>
+</table>
+<table class="doxtable">
 <tr bgcolor="#FAFFFA">
 <td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="estimators_Doc.html">Estimator Tools</a> :   </td></tr>
 <tr>
-<td><img src="res3dCurveTangentEstimator.png" alt="" height="150px" class="inline"/>  </td><td><img src="res2dLocalEstimators.png" alt="" height="150px" class="inline"/> </td><td><img src="resGeneric3dNormalEstimatorsII.png" alt="" height="150px" class="inline"/>  </td></tr>
+<td align="center"><img src="res3dCurveTangentEstimator.png" alt="" height="150px" class="inline"/>  </td><td align="center"><img src="res2dLocalEstimators.png" alt="" height="150px" class="inline"/> </td><td align="center"><img src="resGeneric3dNormalEstimatorsII.png" alt="" height="150px" class="inline"/>  </td></tr>
 <tr>
-<td align="center"><a class="el" href="group__estimatortools.html">3dCurveTangentEstimator</a>  </td><td align="center"><a class="el" href="group__estimatortools.html">2dLocalEstimators</a>  </td><td align="center"><p class="starttd"><a class="el" href="group__estimatortools.html">generic3dNormalEstimators</a> </p>
-<p class="endtd"></p>
-</td></tr>
-<tr bgcolor="#FAFFFA">
-<td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="generators.html">Generators</a> :   </td></tr>
-<tr>
-<td colspan="2"><img src="resContourGenerator.png" alt="" height="150px" class="inline"/>  </td><td><img src="resShapeGenerator.png" alt="" height="150px" class="inline"/>  </td></tr>
-<tr>
-<td align="center" colspan="2"><a class="el" href="group__generatorstools.html">contourGenerator</a>  </td><td align="center"><p class="starttd"><a class="el" href="group__generatorstools.html">shapeGenerator</a>  </p>
-<p class="endtd"></p>
-</td></tr>
-<tr bgcolor="#FAFFFA">
-<td align="center" colspan="3" vertical-align="middle">Example of tools of section visualization_Doc :   </td></tr>
-<tr>
-<td><img src="res3dCurvatureViewerNoise.png" alt="" height="150px" class="inline"/>  </td><td><p class="starttd"><img src="res3dVolViewer.png" alt="" height="150px" class="inline"/></p>
-<p class="endtd"></p>
-</td></tr>
-<tr>
-<td align="center"><a class="el" href="group__visualizationtools.html">3DCurvatureViewerNoise</a>  </td><td align="center"><p class="starttd"><a class="el" href="group__visualizationtools.html">3dVolViewer</a>  </p>
-<p class="endtd"></p>
-</td></tr>
-<tr bgcolor="#FAFFFA">
-<td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="volumetric_Doc.html">Volumetric</a> :   </td></tr>
-<tr>
-<td><img src="res3dVolMarchingCubes2.png" alt="" height="150px" class="inline"/>  </td><td><img src="resHomotopicThinning3D.png" alt="" height="150px" class="inline"/> </td><td><p class="starttd"><img src="resVolReSample.png" alt="" height="150px" class="inline"/></p>
-<p class="endtd"></p>
-</td></tr>
-<tr>
-<td align="center"><a class="el" href="group__volumetrictools.html">3dVolMarchingCubes</a>  </td><td align="center"><a class="el" href="group__volumetrictools.html">homotopicThinning3D</a>  </td><td align="center"><p class="starttd"><a class="el" href="group__volumetrictools.html">volReSample</a>  </p>
-<p class="endtd"></p>
-</td></tr>
-<tr bgcolor="#FAFFFA">
-<td align="center" colspan="3" vertical-align="middle">Example of tools of <a class="el" href="imageProcessing.html">Image processing</a> :   </td></tr>
-<tr>
-<td><img src="barbara-cropped-b01.png" alt="" height="150px" class="inline"/>  </td><td><img src="barbara-cropped-b01-l0.0054088-a1.0-u0-v1-u.png" alt="" height="150px" class="inline"/> </td><td></td></tr>
-<tr>
-<td align="center">Input image  </td><td align="center"><a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u2-v0</a>, <a class="el" href="group__imageprocessingtools.html">imageProcessing/at-u0-v1</a>  </td><td align="center"><p class="starttd"></p>
+<td align="center"><a href="group__estimatortools.html#Doc3dCurveTangentEstimator">3dCurveTangentEstimator</a>  </td><td align="center"><a href="group__estimatortools.html#Doc2dLocalEstimators">2dLocalEstimators</a>  </td><td align="center"><p class="starttd"><a href="group__estimatortools.html#generic3dNormalEstimators">generic3dNormalEstimators</a> </p>
 <p class="endtd"></p>
 </td></tr>
 </table>
-</center> </li>
-</ul>
-</div></div><!-- PageDoc -->
+</center><center><table class="doxtable">
+<tr bgcolor="#FAFFFA">
+<td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="generators.html">Generators</a> :   </td></tr>
+<tr>
+<td align="center" colspan="2"><img src="resContourGenerator.png" alt="" height="150px" class="inline"/>  </td><td align="center"><img src="resShapeGenerator.png" alt="" height="150px" class="inline"/>  </td></tr>
+<tr>
+<td align="center" colspan="2"><a href="group__generatorstools.html#contourGenerator">contourGenerator </a>  </td><td align="center"><p class="starttd"><a href="group__generatorstools.html#shapeGenerator">shapeGenerator </a>  </p>
+<p class="endtd"></p>
+</td></tr>
+</table>
+</center><center><table class="doxtable">
+<tr bgcolor="#FAFFFA">
+<td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="visualization_Doc.html">Visualization</a> :   </td></tr>
+<tr>
+<td align="center"><img src="res3dCurvatureViewerNoise.png" alt="" height="150px" class="inline"/>  </td><td align="center"><img src="res3dVolViewer.png" alt="" height="150px" class="inline"/> </td><td align="center"><img src="res3dImageViewer.png" alt="" height="150px" class="inline"/>  </td></tr>
+<tr>
+<td align="center"><a href="group__visualizationtools.html#Doc3dCurvatureViewerNoise">3dCurvatureViewerNoise</a>  </td><td align="center"><a href="group__visualizationtools.html#Doc3dVolViewer">3dVolViewer</a>  </td><td align="center"><a href="group__visualizationtools.html#Doc3dImageViewer">3dImageViewer</a>  </td></tr>
+</table>
+</center><center><table class="doxtable">
+<tr bgcolor="#FAFFFA">
+<td align="center" colspan="3" vertical-align="middle">Example of tools of section <a class="el" href="volumetric_Doc.html">Volumetric</a> :   </td></tr>
+<tr>
+<td align="center"><img src="res3dVolMarchingCubes2.png" alt="" height="150px" class="inline"/>  </td><td align="center"><img src="resHomotopicThinning3D.png" alt="" height="150px" class="inline"/> </td><td align="center"><p class="starttd"><img src="resVolReSample.png" alt="" height="150px" class="inline"/></p>
+<p class="endtd"></p>
+</td></tr>
+<tr>
+<td align="center"><a href="group__volumetrictools.html#Doc3dVolMarchingCubes">Doc3dVolMarchingCubes</a>  </td><td align="center"><a href="group__volumetrictools.html#homotopicThinning3D">homotopicThinning3D</a>  </td><td align="center"><a href="group__volumetrictools.html#volReSample">volReSample</a>   </td></tr>
+</table>
+<table class="doxtable">
+<tr bgcolor="#FAFFFA">
+<td align="center" colspan="2" vertical-align="middle">Example of tools of <a class="el" href="imageProcessing.html">Image processing</a> :   </td></tr>
+<tr>
+<td align="center" vertical-align="middle"><img src="barbara-cropped-b01.png" alt="" height="150px" class="inline"/> <br  />
+  </td><td align="center" vertical-align="middle"><img src="barbara-cropped-b01-l0.0054088-a1.0-u0-v1-u.png" alt="" height="150px" class="inline"/>   </td></tr>
+<tr>
+<td align="center" colspan="2" vertical-align="middle"><p class="starttd"><a href="group__imageprocessingtools.html#DocATu2v0">atu2v0</a>, <a href="group__imageprocessingtools.html#DocATu0v1">atu0v1</a> </p>
+<p class="endtd"></p>
+</td></tr>
+</table>
+</center> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 16 2025 15:54:02 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 29 2025 20:42:53 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

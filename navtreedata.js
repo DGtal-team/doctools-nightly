@@ -33,36 +33,15 @@ var NAVTREE =
       [ "Modules of package image processing", "imageProcessing.html#imageprocessing_Modules", null ],
       [ "Image restoration", "imageProcessing.html#imageprocessing_Doc", null ]
     ] ],
-    [ "Visualization", "visualization.html", null ],
+    [ "Visualization", "visualization_Doc.html", null ],
     [ "Volumetric", "volumetric_Doc.html", null ],
-    [ "Topics", "topics.html", "topics" ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
-      ] ]
-    ] ]
+    [ "Topics", "topics.html", "topics" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"structDGtal_1_1ATVu2v0.html#a37be448ecf4832f5c53bbd6671aaa1a0",
-"structDGtal_1_1ATu0v1.html#a8e4496742d93e9eb891a91d2ffe07a1d",
-"structDGtal_1_1ATu2v0.html#ad0f1e20d272f0e9110411d412911f718"
+"converters.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -33,7 +33,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.1.0</span>
    </div>
   </td>
  </tr>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('group__volumetrictools.html',''); init
 <img src="res3dVolMarchingCubes.png" alt=""/>
 <div class="caption">
 Resulting visualization.</div></div>
-You can test on other samples like <a href="http://www.tc18.org/code_data_set/3D_greyscale/bonsai.vol.bz2">http://www.tc18.org/code_data_set/3D_greyscale/bonsai.vol.bz2</a> </p><div class="fragment"><div class="line">$ 3dVolMarchingCubes -i bonsai.vol  -t 80</div>
+You can test on other samples like <a href="https://tc18.org/DataSets/3D_greyscale/bonsai.vol.bz2">https://tc18.org/DataSets/3D_greyscale/bonsai.vol.bz2</a> </p><div class="fragment"><div class="line">$ 3dVolMarchingCubes -i bonsai.vol  -t 80</div>
 </div><!-- fragment --><p> You should obtain such a result: </p><div class="image">
 <img src="res3dVolMarchingCubes2.png" alt=""/>
 <div class="caption">
@@ -252,7 +252,7 @@ Number of disjoint 6-components = 2
 <div class="line">  --yMax INT REQUIRED                   y coordinate of upper point.</div>
 <div class="line">  --zMax INT REQUIRED                   z coordinate of upper point.</div>
 </div><!-- fragment --><b>Example:</b> <div class="fragment"><div class="line">$ volCrop --xMin 50 --yMin 50 --zMin 10 --xMax 150 --yMax 150 --zMax 50 -i ${<a class="code hl_namespace" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol -o croppedLobster.vol </div>
-<div class="line">$ 3dImageViewer -i croppedLobster.vol</div>
+<div class="line">$ ./visualisation/3dVolViewer croppedLobster.vol -m 60</div>
 </div><!-- fragment -->You should obtain such a visualization: </p><div class="image">
 <img src="resVolCrop.png" alt=""/>
 <div class="caption">
@@ -399,7 +399,7 @@ Resulting of re sampling with grid size = 2, 4 and 8.</div></div>
 <div class="line">  -M,--thresholdMax INT=255             max threshold</div>
 </div><!-- fragment --><b>Example:</b> You can test the segmentation in the lobster volume file:<div class="fragment"><div class="line">$ volSegment ${<a class="code hl_namespace" href="namespaceDGtal.html">DGtal</a>}/examples/samples/lobster.vol  segmentation.vol  -m 70 -M 255</div>
 </div><!-- fragment -->You will obtain a volumetric file representing for each voxel a label associated to a connected component. You can display this segmentation results by extracting it in SDP format with the <a class="el" href="group__convertertools.html">vol2sdp</a> tool (with option -e to export also the image labels): </p><div class="fragment"><div class="line">$ vol2sdp segmentation.vol segmentation.sdp  -e -m 1 -M 255</div>
-</div><!-- fragment -->and display them with <a class="el" href="group__visualizationtools.html">3DSDPViewer</a> :<div class="fragment"><div class="line">$ 3dSDPViewer segmentation.sdp  --importColorLabels</div>
+</div><!-- fragment -->and display them with Doc3DSDPViewer :<div class="fragment"><div class="line">$ 3dSDPViewer segmentation.sdp  --importColorLabels</div>
 </div><!-- fragment -->You should obtain such a result: </p><div class="image">
 <img src="resVolSegment.png" alt=""/>
 <div class="caption">
@@ -499,7 +499,7 @@ Result visualization.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 16 2025 15:54:02 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 29 2025 20:42:53 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

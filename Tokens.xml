@@ -209,10 +209,10 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>visualization</Name>
+      <Name>visualization_Doc</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>visualization.html</Path>
+    <Path>visualization_Doc.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>

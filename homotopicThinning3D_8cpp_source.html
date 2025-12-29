@@ -33,7 +33,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.1.0</span>
    </div>
   </td>
  </tr>
@@ -260,35 +260,36 @@ $(document).ready(function(){initNavTree('homotopicThinning3D_8cpp_source.html',
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  trace.info() &lt;&lt; <span class="stringliteral">&quot;Skeleton--&gt; &quot;</span>&lt;&lt;S&lt;&lt;std::endl;</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>  <span class="comment">// Display by using two different list to manage OpenGL transparency.</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    polyscope::options::programName = <span class="stringliteral">&quot;DGtalTools: homotopicThinning3D&quot;</span>;</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    PolyscopeViewer&lt;&gt; viewer;</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  viewer &lt;&lt; Color(25,25,255, 255);</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  viewer &lt;&lt; S ;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  viewer &lt;&lt; Color(255,25,255, 255);</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  viewer &lt;&lt; fixedSet;</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  viewer &lt;&lt; Color(250, 0,0, 25);</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  viewer &lt;&lt; shape_set;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  </div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  <span class="keywordflow">if</span> (exportSDPName != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    {</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>      std::ofstream out;</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>      out.open(exportSDPName.c_str());</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;p : S)</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        {</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>          out &lt;&lt; p[0] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; p[1] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; p[2] &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        }</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    }</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>  viewer.show();</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>}</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="comment">//                                                                           //</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>  polyscope::options::programName = <span class="stringliteral">&quot;DGtalTools: homotopicThinning3D&quot;</span>;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>  polyscope::view::setNavigateStyle(polyscope::NavigateStyle::Free);</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  PolyscopeViewer&lt;&gt; viewer;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  viewer &lt;&lt; Color(25,25,255, 255);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  viewer &lt;&lt; S ;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  viewer &lt;&lt; Color(255,25,255, 255);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  viewer &lt;&lt; fixedSet;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  viewer &lt;&lt; Color(250, 0,0, 25);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  viewer &lt;&lt; shape_set;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <span class="keywordflow">if</span> (exportSDPName != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    {</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>      std::ofstream out;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>      out.open(exportSDPName.c_str());</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;p : S)</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        {</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>          out &lt;&lt; p[0] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; p[1] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; p[2] &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    }</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  viewer.show();</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>}</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="comment">//                                                                           //</span></div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
 <div class="ttc" id="anamespaceDGtal_html"><div class="ttname"><a href="namespaceDGtal.html">DGtal</a></div><div class="ttdef"><b>Definition</b> <a href="ATu0v1_8h_source.html#l00056">ATu0v1.h:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -296,7 +297,7 @@ $(document).ready(function(){initNavTree('homotopicThinning3D_8cpp_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b145db2560fed4586389316a9c647f44.html">volumetric</a></li><li class="navelem"><b>homotopicThinning3D.cpp</b></li>
-    <li class="footer">Generated on Tue Dec 16 2025 15:54:02 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 29 2025 20:42:53 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

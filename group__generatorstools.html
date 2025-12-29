@@ -33,7 +33,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.1.0</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('group__generatorstools.html',''); init
 <div class="contents">
 
 
-<h3><a id="2dSimplePolygonDigitizer" name="2dSimplePolygonDigitizer"></a>2dSimplePolygonDigitizer</h3><div class="textblock">The digitizer compute the set of integer points inside the input polyline.<b>Usage:</b> 2dSimplePolygonDigitizer [input] [output]<b>Allowed</b> <b>options</b> <b>are:</b> <div class="fragment"><div class="line">Positionals:</div>
+<h3><a id="Doc2dSimplePolygonDigitizer" name="Doc2dSimplePolygonDigitizer"></a>2dSimplePolygonDigitizer</h3><div class="textblock">The digitizer compute the set of integer points inside the input polyline.<b>Usage:</b> 2dSimplePolygonDigitizer [input] [output]<b>Allowed</b> <b>options</b> <b>are:</b> <div class="fragment"><div class="line">Positionals:</div>
 <div class="line">1 TEXT:FILE REQUIRED                  Input polyline filename (sdp).</div>
 <div class="line"> </div>
 <div class="line">Options:</div>
@@ -125,10 +125,10 @@ Resulting image</div></div>
 <img src="resPolygonDigitizer2.png" alt=""/>
 <div class="caption">
 Resulting image</div></div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__generatorstools.html">2dSimplePolygonDigitizer</a> <a class="el" href="2dSimplePolygonDigitizer_8cpp_source.html">2dSimplePolygonDigitizer.cpp</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>2dSimplePolygonDigitizer <a class="el" href="2dSimplePolygonDigitizer_8cpp_source.html">2dSimplePolygonDigitizer.cpp</a> </dd></dl>
 </div>
 
-<h3><a id="3dParametricCurveDigitizer" name="3dParametricCurveDigitizer"></a>3dParametricCurveDigitizer</h3><div class="textblock"><b>Usage:</b> 3dParametricCurveDigitizer [options] &ndash;curve &lt;curve&gt; &ndash;param1 &lt;double&gt; &ndash;param2 &lt;double&gt; &ndash;param3 &lt;double&gt; &ndash;tstart &lt;double&gt; &ndash;tend &lt;double&gt; &ndash;step &lt;double&gt; &ndash;output &lt;basename&gt;<b>Allowed</b> <b>options</b> <b>are:</b> <div class="fragment"><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div>
+<h3><a id="Doc3dParametricCurveDigitizer" name="Doc3dParametricCurveDigitizer"></a>3dParametricCurveDigitizer</h3><div class="textblock"><b>Usage:</b> 3dParametricCurveDigitizer [options] &ndash;curve &lt;curve&gt; &ndash;param1 &lt;double&gt; &ndash;param2 &lt;double&gt; &ndash;param3 &lt;double&gt; &ndash;tstart &lt;double&gt; &ndash;tend &lt;double&gt; &ndash;step &lt;double&gt; &ndash;output &lt;basename&gt;<b>Allowed</b> <b>options</b> <b>are:</b> <div class="fragment"><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div>
 <div class="line">--param1 FLOAT=1                      a radius or a scaling factor (<span class="keywordflow">default</span> 0)</div>
 <div class="line">--param2 FLOAT=1                      a radius or a scaling factor (<span class="keywordflow">default</span> 0)</div>
 <div class="line">--param3 FLOAT=1                      a radius or a scaling factor (<span class="keywordflow">default</span> 0)</div>
@@ -168,7 +168,7 @@ Resulting image</div></div>
 <div class="line">        Required parameter(s): --param1, --param2, --param3</div>
 </div><!-- fragment --><b>Example:</b> </p><div class="fragment"><div class="line"><span class="preprocessor"># generate a trefoli knot:</span></div>
 <div class="line">3dParametricCurveDigitizer --curve Knot_3_1 --param1 10 --param2 10 --param3 10 --tstart -2.2 --tend 2.2 --step 0.001 --output knot_3_1</div>
-</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="3dParametricCurveDigitizer_8cpp_source.html">3dParametricCurveDigitizer.cpp</a> <a class="el" href="group__generatorstools.html">3dParametricCurveDigitizer</a> </dd></dl>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="3dParametricCurveDigitizer_8cpp_source.html">3dParametricCurveDigitizer.cpp</a> 3dParametricCurveDigitizer </dd></dl>
 </div>
 
 <h3><a id="contourGenerator" name="contourGenerator"></a>contourGenerator</h3><div class="textblock">The associated geometric information like contour, curvature can also be displayed.<b>Usage:</b> contourGenerator &ndash;shape &lt;shapeName&gt; [requiredParam] [otherOptions]<b>Allowed</b> <b>options</b> <b>are:</b> <div class="fragment"><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div>
@@ -264,7 +264,7 @@ resulting visualisation of generated shape.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 16 2025 15:54:02 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 29 2025 20:42:53 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

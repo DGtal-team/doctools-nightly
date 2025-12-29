@@ -33,7 +33,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">DGtalTools<span id="projectnumber">&#160;2.1.0</span>
    </div>
   </td>
  </tr>
@@ -287,7 +287,7 @@ Volumetric Euler Characteristic = 1
 </pre><dl class="section see"><dt>See also</dt><dd><a class="el" href="eulerCharacteristic_8cpp_source.html">eulerCharacteristic.cpp</a> </dd></dl>
 </div>
 
-<h3><a id="generic3dNormalEstimators" name="generic3dNormalEstimators"></a>generic3dNormalEstimators</h3><div class="textblock"><b>Usage:</b> ./estimators/generic3dNormalEstimators -p &lt;polynomial&gt; [options]Computes a normal vector field over a digitized 3D implicit surface for several estimators (II|VCM|Trivial|True), specified with -e. You may add Kanungo noise with option -N. These estimators are compared with ground truth. You may then: 1) visualize the normals or the angle deviations with -V (if DGTAL_WITH_POLYSCOPE is enabled), 2) outputs them as a list of cells/estimations with -n, 3) outputs them as a ImaGene file with -O, 4) outputs them as a NOFF file with -O, 5) computes estimation statistics with option -S.<b>Allowed</b> <b>options</b> <b>are</b> :<div class="fragment"><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div>
+<h3><a id="generic3dNormalEstimators" name="generic3dNormalEstimators"></a>generic3dNormalEstimators</h3><div class="textblock"><b>Usage:</b> ./estimators/generic3dNormalEstimators -p &lt;polynomial&gt; [options]Computes a normal vector field over a digitized 3D implicit surface for several estimators (II|VCM|Trivial|True), specified with -e. You may add Kanungo noise with option -N. These estimators are compared with ground truth. You may then: 1) visualize the normals or the angle deviations with -V (if DGTAL_WITH_POLYSCOPE_VIEWER is enabled), 2) outputs them as a list of cells/estimations with -n, 3) outputs them as a ImaGene file with -O, 4) outputs them as a NOFF file with -O, 5) computes estimation statistics with option -S.<b>Allowed</b> <b>options</b> <b>are</b> :<div class="fragment"><div class="line">-h,--help                             Print <span class="keyword">this</span> help message and exit</div>
 <div class="line">-p,--polynomial TEXT REQUIRED         the implicit polynomial whose zero-level defines the shape of interest.</div>
 <div class="line">-N,--noise FLOAT=0                    the Kanungo noise level l=arg, with l^d the probability that a point at distance d is flipped inside/outside.</div>
 <div class="line">-a,--minAABB FLOAT=-10                the min value of the AABB bounding box (domain)</div>
@@ -331,13 +331,9 @@ Volumetric Euler Characteristic = 1
 </dd></dl>
 <p><b>Example:</b> <ul>
 <li><b>Example</b> <b>of</b> <b>normal</b> <b>comparisons:</b> You can estimate the normal vectors and compare the error with the true normals (option -V AngleDeviation): <div class="fragment"><div class="line"><span class="preprocessor"># apply the Integral Invariant estimator  (options  -e II  -r 8 ):</span></div>
-<div class="line">$ generic3dNormalEstimators -p <span class="stringliteral">&quot;10000-(x^2+y^2+z^2+1000*(x^2+y^2)*(x^2+z^2)*(y^2+z^2))&quot;</span> -a -10 -A 10 -e II  -r 8  -V AngleDeviation -g 0.05 </div>
+<div class="line">$ generic3dNormalEstimators -p <span class="stringliteral">&quot;10000-(x^2+y^2+z^2+1000*(x^2+y^2)*(x^2+z^2)*(y^2+z^2))&quot;</span> -a -10 -A 10 -e II  -r 8  -V AngleDeviation -g 0.05  </div>
 <div class="line"><span class="preprocessor"># apply the Voronoi Covariance Measure based estimator  (options  -e VCM  -r 8 ): </span></div>
 <div class="line">$ generic3dNormalEstimators -p <span class="stringliteral">&quot;10000-(x^2+y^2+z^2+1000*(x^2+y^2)*(x^2+z^2)*(y^2+z^2))&quot;</span>  -a -10 -A 10 -e VCM   -R 20 -r 8 -V AngleDeviation -g 0.05 </div>
-<div class="line"><span class="preprocessor"># to display source digital surface  :  visualize the normals and tape Key E to export surface (in  exportedMesh.off) </span></div>
-<div class="line">$ generic3dNormalEstimators -p <span class="stringliteral">&quot;10000-(x^2+y^2+z^2+1000*(x^2+y^2)*(x^2+z^2)*(y^2+z^2))&quot;</span>  -a -10 -A 10 -e VCM   -R 20 -r 8 -V Normals -g 0.05 </div>
-<div class="line"><span class="preprocessor"># visualize generated file:</span></div>
-<div class="line">$ meshViewer -i  exportedMesh.off</div>
 </div><!-- fragment --> You should obtain such a result: <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadCenter">type   </th><th class="markdownTableHeadCenter">visualization    </th></tr>
@@ -349,15 +345,10 @@ Volumetric Euler Characteristic = 1
 <td class="markdownTableBodyCenter">II angle-deviation   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalEstimatorsII.png" alt="" class="inline"/>      </td></tr>
 </table>
 </li>
-<li><b>Example</b> <b>of</b> <b>normal</b> <b>visualization</b> with noise add: This tool allows to add some noise on initial shape (option -N) and it is also possiblt to visualize the source shape by using the resulting normals: <div class="fragment"><div class="line"><span class="preprocessor"># apply the Integral Invariant estimator  (options  -e II  -r 6 ): </span></div>
-<div class="line"> generic3dNormalEstimators -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e II  -r 6 -V Normals -g 0.1 -N 0.3</div>
+<li><b>Example</b> <b>of</b> <b>normal</b> <b>comparisons</b> visualization with noise add: This tool allows to add some noise on initial shape (option -N) before estimating and comparing the normals: <div class="fragment"><div class="line"><span class="preprocessor"># apply the Integral Invariant estimator  (options  -e II  -r 6 ): </span></div>
+<div class="line"> generic3dNormalEstimators -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e II  -r 6 -V AngleDeviation -g 0.1 -N 0.3 </div>
 <div class="line"><span class="preprocessor"># apply the Voronoi Covariance Measure based estimator  (options  -e VCM  -r 8 ):  </span></div>
-<div class="line">  generic3dNormalEstimators -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e VCM   -R 10 -r 5 -V Normals -g 0.1 -N 0.3</div>
-<div class="line"><span class="preprocessor"># apply the true normals:</span></div>
-<div class="line">./estimators/generic3dNormalEstimators -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e True  -V Normals -g 0.1 -N 0.3</div>
-<div class="line"><span class="preprocessor"># to display source digital surface  :  tape Key E on previous displays to export surface (in  exportedMesh.off) </span></div>
-<div class="line"><span class="preprocessor"># visualize generated file:</span></div>
-<div class="line">$ meshViewer -i  exportedMesh.off</div>
+<div class="line"> generic3dNormalEstimators -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e VCM   -R 10 -r 5 -V AngleDeviation -g 0.1 -N 0.3 </div>
 </div><!-- fragment --></li>
 </ul>
 You should obtain such a result: </p><table class="markdownTable">
@@ -368,9 +359,15 @@ You should obtain such a result: </p><table class="markdownTable">
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter">VCM estimator   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalEstimatorsNoiseVCM.png" alt="" class="inline"/>       </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">II estimator   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalEstimatorsNoiseII.png" alt="" class="inline"/>       </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter">True Normals   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalEstimatorsNoiseTrue.png" alt="" class="inline"/>      </td></tr>
+<td class="markdownTableBodyCenter">II estimator   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalEstimatorsNoiseII.png" alt="" class="inline"/>      </td></tr>
+</table>
+It is also possible to visualize the resulting normals: </p><div class="fragment"><div class="line"><span class="preprocessor"># display the II normals:</span></div>
+<div class="line"> generic3dNormalEstimators  -p <span class="stringliteral">&quot;100-(x^2*y^2*z^2+4*x^2+4*y^2+3*z^2)&quot;</span>  -a -10 -A 10 -e II  -r 8  -V Normals -g 0.3   </div>
+</div><!-- fragment --><p> You should obtain such a result: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">type   </th><th class="markdownTableHeadCenter">visualization    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">II estimator   </td><td class="markdownTableBodyCenter"><img src="resGeneric3dNormalVisuEstimatorsNoiseII.png" alt="" class="inline"/>      </td></tr>
 </table>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="generic3dNormalEstimators_8cpp_source.html">generic3dNormalEstimators.cpp</a> </dd></dl>
 </div>
@@ -509,7 +506,7 @@ Smooth quadrangulated complex.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 16 2025 15:54:02 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Dec 29 2025 20:42:53 for DGtalTools by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
